@@ -21,6 +21,11 @@
 		6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83200F1E1F317900BBDEDA /* LSDEssenceVC.m */; };
 		6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320121E1F319200BBDEDA /* LSDPublishVC.m */; };
 		6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320191E1F322600BBDEDA /* LSDNewVC.m */; };
+		6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83201C1E1F79CB00BBDEDA /* LSDTabBar.m */; };
+		6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320241E1F7B1C00BBDEDA /* UIView+Frame.m */; };
+		6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320281E1F81FE00BBDEDA /* LSDNavigationVC.m */; };
+		6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */; };
+		6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,17 @@
 		6C8320121E1F319200BBDEDA /* LSDPublishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPublishVC.m; sourceTree = "<group>"; };
 		6C8320181E1F322600BBDEDA /* LSDNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSDNewVC.h; path = ../LSDNewVC.h; sourceTree = "<group>"; };
 		6C8320191E1F322600BBDEDA /* LSDNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSDNewVC.m; path = ../LSDNewVC.m; sourceTree = "<group>"; };
+		6C83201B1E1F79CB00BBDEDA /* LSDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTabBar.h; sourceTree = "<group>"; };
+		6C83201C1E1F79CB00BBDEDA /* LSDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTabBar.m; sourceTree = "<group>"; };
+		6C8320231E1F7B1C00BBDEDA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6C8320241E1F7B1C00BBDEDA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6C8320261E1F7C6100BBDEDA /* LSDBuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSDBuDeJie.pch; sourceTree = "<group>"; };
+		6C8320271E1F81FE00BBDEDA /* LSDNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDNavigationVC.h; sourceTree = "<group>"; };
+		6C8320281E1F81FE00BBDEDA /* LSDNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDNavigationVC.m; sourceTree = "<group>"; };
+		6C83202A1E1F872300BBDEDA /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		6C83202D1E1F8BF800BBDEDA /* LSDSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSettingVC.h; sourceTree = "<group>"; };
+		6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSettingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +153,7 @@
 				6C831FFF1E1F30C500BBDEDA /* Publish(发布) */,
 				6C831FEF1E1F30C400BBDEDA /* FriendTrend(关注) */,
 				6C831FF71E1F30C500BBDEDA /* Me(我) */,
+				6C83201E1E1F7AE900BBDEDA /* Setting(设置) */,
 				6C831FFB1E1F30C500BBDEDA /* Other */,
 				6C28BC0F1E1CC07C00BB6281 /* Main.storyboard */,
 				6C28BC121E1CC07C00BB6281 /* Assets.xcassets */,
@@ -253,6 +270,8 @@
 			children = (
 				6C8320051E1F30F500BBDEDA /* LSDTabBarVC.h */,
 				6C8320061E1F30F500BBDEDA /* LSDTabBarVC.m */,
+				6C8320271E1F81FE00BBDEDA /* LSDNavigationVC.h */,
+				6C8320281E1F81FE00BBDEDA /* LSDNavigationVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +286,8 @@
 		6C831FF61E1F30C500BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C83201B1E1F79CB00BBDEDA /* LSDTabBar.h */,
+				6C83201C1E1F79CB00BBDEDA /* LSDTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -307,9 +328,11 @@
 		6C831FFB1E1F30C500BBDEDA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				6C8320221E1F7AF700BBDEDA /* category */,
 				6C831FFC1E1F30C500BBDEDA /* AppDelegate.h */,
 				6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */,
 				6C831FFE1E1F30C500BBDEDA /* main.m */,
+				6C8320261E1F7C6100BBDEDA /* LSDBuDeJie.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -378,6 +401,50 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6C83201E1E1F7AE900BBDEDA /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				6C83201F1E1F7AE900BBDEDA /* Controller */,
+				6C8320201E1F7AE900BBDEDA /* Model */,
+				6C8320211E1F7AE900BBDEDA /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		6C83201F1E1F7AE900BBDEDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C83202D1E1F8BF800BBDEDA /* LSDSettingVC.h */,
+				6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C8320201E1F7AE900BBDEDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C8320211E1F7AE900BBDEDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C8320221E1F7AF700BBDEDA /* category */ = {
+			isa = PBXGroup;
+			children = (
+				6C8320231E1F7B1C00BBDEDA /* UIView+Frame.h */,
+				6C8320241E1F7B1C00BBDEDA /* UIView+Frame.m */,
+				6C83202A1E1F872300BBDEDA /* UIBarButtonItem+Item.h */,
+				6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 		EBD674950F113E525C8C7C90 /* Pods */ = {
@@ -574,12 +641,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C83200D1E1F316200BBDEDA /* LSDFriendTrendVC.m in Sources */,
+				6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */,
+				6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */,
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
+				6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
+				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
 				6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */,
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
+				6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */,
 				6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -729,6 +801,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LSDBuDeJie/Other/LSDBuDeJie.pch;
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -743,6 +817,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LSDBuDeJie/Other/LSDBuDeJie.pch;
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
