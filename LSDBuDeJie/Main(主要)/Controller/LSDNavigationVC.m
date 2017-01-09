@@ -16,16 +16,14 @@
 
 + (void)load{
     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:self, nil];
-    [navBar setTitleTextAttributes:@{
-                                     NSForegroundColorAttributeName:[UIColor blackColor],
-                                     NSFontAttributeName:[UIFont boldSystemFontOfSize:20.f]}
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:20.f]}
      ];
     [navBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //添加全屏滑动手势
+    //添加全屏滑动返回手势
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
     [self.view addGestureRecognizer:pan];
     pan.delegate = self;

@@ -16,15 +16,5 @@
 
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
-
-#define LSDFunc LSDLog(@"%s",__func__)
-
-#ifdef DEBUG // 调试
-
-#define LSDLog(...) NSLog(__VA_ARGS__)
-
-#else // 发布
-
-#define LSDLog(...)
-
-#endif
+#import "LSDMarch.h"
+#import "LSDConst.h"

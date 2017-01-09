@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LSDTabBarVC.h"
-
+#import "LSDAdVC.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    LSDTabBarVC *tabBarVC = [[LSDTabBarVC alloc] init];
-    self.window.rootViewController = tabBarVC;
-    
+    //设置广告页面
+    LSDAdVC *adVC = [[LSDAdVC alloc] init];
+    self.window.rootViewController = adVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
