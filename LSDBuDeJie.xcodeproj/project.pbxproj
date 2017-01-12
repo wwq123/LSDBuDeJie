@@ -26,6 +26,17 @@
 		6C58186F1E2363D300A0BBC9 /* LSDBaseNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58186E1E2363D300A0BBC9 /* LSDBaseNet.m */; };
 		6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818721E236A2500A0BBC9 /* LSDAdNet.m */; };
 		6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818751E236A8C00A0BBC9 /* LSDAdItem.m */; };
+		6C5818791E237EDA00A0BBC9 /* LSDSubTagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818781E237EDA00A0BBC9 /* LSDSubTagVC.m */; };
+		6C58187D1E237F5700A0BBC9 /* LSDSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58187B1E237F5700A0BBC9 /* LSDSubTagCell.m */; };
+		6C58187E1E237F5700A0BBC9 /* LSDSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C58187C1E237F5700A0BBC9 /* LSDSubTagCell.xib */; };
+		6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818801E237F7900A0BBC9 /* LSDSubTagItem.m */; };
+		6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */; };
+		6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */; };
+		6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */; };
+		6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC681E24D20C0058875D /* LSDButton.m */; };
+		6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC6B1E24D4940058875D /* LSDLoginRegistView.m */; };
+		6C7EEC6E1E24D4B60058875D /* LSDLoginRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC6D1E24D4B60058875D /* LSDLoginRegistView.xib */; };
+		6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80117D1E271EC4002B7EFC /* LSDWebViewVC.m */; };
 		6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */; };
 		6C8320041E1F30C500BBDEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831FFE1E1F30C500BBDEDA /* main.m */; };
 		6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320061E1F30F500BBDEDA /* LSDTabBarVC.m */; };
@@ -39,6 +50,15 @@
 		6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320281E1F81FE00BBDEDA /* LSDNavigationVC.m */; };
 		6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */; };
 		6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */; };
+		6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */; };
+		6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA03AA11E248E7B00E768F1 /* LSDLoginVC.m */; };
+		6CA447361E25C1DA000D2DCF /* LSDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447351E25C1DA000D2DCF /* LSDTextField.m */; };
+		6CA447391E25C78F000D2DCF /* UITextField+PlaceHolderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447381E25C78F000D2DCF /* UITextField+PlaceHolderColor.m */; };
+		6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447401E25D870000D2DCF /* LSDCollectionCell.m */; };
+		6CA447431E25D870000D2DCF /* LSDCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA447411E25D870000D2DCF /* LSDCollectionCell.xib */; };
+		6CA447461E25D9E9000D2DCF /* LSDModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */; };
+		6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD049371E26168000FFEEEF /* LSDModulesNet.m */; };
+		6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +112,25 @@
 		6C5818721E236A2500A0BBC9 /* LSDAdNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAdNet.m; sourceTree = "<group>"; };
 		6C5818741E236A8C00A0BBC9 /* LSDAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAdItem.h; sourceTree = "<group>"; };
 		6C5818751E236A8C00A0BBC9 /* LSDAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAdItem.m; sourceTree = "<group>"; };
+		6C5818771E237EDA00A0BBC9 /* LSDSubTagVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSubTagVC.h; sourceTree = "<group>"; };
+		6C5818781E237EDA00A0BBC9 /* LSDSubTagVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagVC.m; sourceTree = "<group>"; };
+		6C58187A1E237F5700A0BBC9 /* LSDSubTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSubTagCell.h; sourceTree = "<group>"; };
+		6C58187B1E237F5700A0BBC9 /* LSDSubTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagCell.m; sourceTree = "<group>"; };
+		6C58187C1E237F5700A0BBC9 /* LSDSubTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDSubTagCell.xib; sourceTree = "<group>"; };
+		6C58187F1E237F7900A0BBC9 /* LSDSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSubTagItem.h; sourceTree = "<group>"; };
+		6C5818801E237F7900A0BBC9 /* LSDSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagItem.m; sourceTree = "<group>"; };
+		6C5818831E23847100A0BBC9 /* LSDSubTagNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSubTagNet.h; sourceTree = "<group>"; };
+		6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagNet.m; sourceTree = "<group>"; };
+		6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFastLoginView.h; sourceTree = "<group>"; };
+		6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFastLoginView.m; sourceTree = "<group>"; };
+		6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDFastLoginView.xib; sourceTree = "<group>"; };
+		6C7EEC671E24D20C0058875D /* LSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDButton.h; sourceTree = "<group>"; };
+		6C7EEC681E24D20C0058875D /* LSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDButton.m; sourceTree = "<group>"; };
+		6C7EEC6A1E24D4940058875D /* LSDLoginRegistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDLoginRegistView.h; sourceTree = "<group>"; };
+		6C7EEC6B1E24D4940058875D /* LSDLoginRegistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDLoginRegistView.m; sourceTree = "<group>"; };
+		6C7EEC6D1E24D4B60058875D /* LSDLoginRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDLoginRegistView.xib; sourceTree = "<group>"; };
+		6C80117C1E271EC4002B7EFC /* LSDWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDWebViewVC.h; sourceTree = "<group>"; };
+		6C80117D1E271EC4002B7EFC /* LSDWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDWebViewVC.m; sourceTree = "<group>"; };
 		6C831FFC1E1F30C500BBDEDA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C831FFE1E1F30C500BBDEDA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +157,23 @@
 		6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		6C83202D1E1F8BF800BBDEDA /* LSDSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSettingVC.h; sourceTree = "<group>"; };
 		6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSettingVC.m; sourceTree = "<group>"; };
+		6CA03A9D1E248B3C00E768F1 /* UIStoryboard+VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+VC.h"; sourceTree = "<group>"; };
+		6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+VC.m"; sourceTree = "<group>"; };
+		6CA03AA01E248E7B00E768F1 /* LSDLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDLoginVC.h; sourceTree = "<group>"; };
+		6CA03AA11E248E7B00E768F1 /* LSDLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDLoginVC.m; sourceTree = "<group>"; };
+		6CA447341E25C1DA000D2DCF /* LSDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTextField.h; sourceTree = "<group>"; };
+		6CA447351E25C1DA000D2DCF /* LSDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTextField.m; sourceTree = "<group>"; };
+		6CA447371E25C78F000D2DCF /* UITextField+PlaceHolderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PlaceHolderColor.h"; sourceTree = "<group>"; };
+		6CA447381E25C78F000D2DCF /* UITextField+PlaceHolderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PlaceHolderColor.m"; sourceTree = "<group>"; };
+		6CA4473F1E25D870000D2DCF /* LSDCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCollectionCell.h; sourceTree = "<group>"; };
+		6CA447401E25D870000D2DCF /* LSDCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCollectionCell.m; sourceTree = "<group>"; };
+		6CA447411E25D870000D2DCF /* LSDCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDCollectionCell.xib; sourceTree = "<group>"; };
+		6CA447441E25D9E9000D2DCF /* LSDModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDModuleItem.h; sourceTree = "<group>"; };
+		6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModuleItem.m; sourceTree = "<group>"; };
+		6CD049361E26168000FFEEEF /* LSDModulesNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDModulesNet.h; sourceTree = "<group>"; };
+		6CD049371E26168000FFEEEF /* LSDModulesNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModulesNet.m; sourceTree = "<group>"; };
+		6CD049391E2627FA00FFEEEF /* LSDFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFootView.h; sourceTree = "<group>"; };
+		6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFootView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +356,15 @@
 			path = Net;
 			sourceTree = "<group>";
 		};
+		6C5818821E23844100A0BBC9 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6C5818831E23847100A0BBC9 /* LSDSubTagNet.h */,
+				6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
 		6C831FEB1E1F30C400BBDEDA /* Essence(精华) */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +413,8 @@
 			children = (
 				6C83200B1E1F316200BBDEDA /* LSDFriendTrendVC.h */,
 				6C83200C1E1F316200BBDEDA /* LSDFriendTrendVC.m */,
+				6CA03AA01E248E7B00E768F1 /* LSDLoginVC.h */,
+				6CA03AA11E248E7B00E768F1 /* LSDLoginVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -362,6 +429,16 @@
 		6C831FF21E1F30C400BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */,
+				6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */,
+				6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */,
+				6C7EEC671E24D20C0058875D /* LSDButton.h */,
+				6C7EEC681E24D20C0058875D /* LSDButton.m */,
+				6CA447341E25C1DA000D2DCF /* LSDTextField.h */,
+				6CA447351E25C1DA000D2DCF /* LSDTextField.m */,
+				6C7EEC6A1E24D4940058875D /* LSDLoginRegistView.h */,
+				6C7EEC6B1E24D4940058875D /* LSDLoginRegistView.m */,
+				6C7EEC6D1E24D4B60058875D /* LSDLoginRegistView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -410,6 +487,7 @@
 				6C831FF81E1F30C500BBDEDA /* Controller */,
 				6C831FF91E1F30C500BBDEDA /* Model */,
 				6C831FFA1E1F30C500BBDEDA /* View */,
+				6CD049351E26164A00FFEEEF /* Net */,
 			);
 			path = "Me(我)";
 			sourceTree = "<group>";
@@ -419,6 +497,8 @@
 			children = (
 				6C8320081E1F313B00BBDEDA /* LSDMeVC.h */,
 				6C8320091E1F313B00BBDEDA /* LSDMeVC.m */,
+				6C80117C1E271EC4002B7EFC /* LSDWebViewVC.h */,
+				6C80117D1E271EC4002B7EFC /* LSDWebViewVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -426,6 +506,8 @@
 		6C831FF91E1F30C500BBDEDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6CA447441E25D9E9000D2DCF /* LSDModuleItem.h */,
+				6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -433,6 +515,11 @@
 		6C831FFA1E1F30C500BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6CA4473F1E25D870000D2DCF /* LSDCollectionCell.h */,
+				6CA447401E25D870000D2DCF /* LSDCollectionCell.m */,
+				6CA447411E25D870000D2DCF /* LSDCollectionCell.xib */,
+				6CD049391E2627FA00FFEEEF /* LSDFootView.h */,
+				6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -491,6 +578,7 @@
 				6C8320151E1F320700BBDEDA /* Controller */,
 				6C8320161E1F320700BBDEDA /* Model */,
 				6C8320171E1F320700BBDEDA /* View */,
+				6C5818821E23844100A0BBC9 /* Net */,
 			);
 			path = "New(新帖)";
 			sourceTree = "<group>";
@@ -500,6 +588,8 @@
 			children = (
 				6C8320181E1F322600BBDEDA /* LSDNewVC.h */,
 				6C8320191E1F322600BBDEDA /* LSDNewVC.m */,
+				6C5818771E237EDA00A0BBC9 /* LSDSubTagVC.h */,
+				6C5818781E237EDA00A0BBC9 /* LSDSubTagVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -507,6 +597,8 @@
 		6C8320161E1F320700BBDEDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6C58187F1E237F7900A0BBC9 /* LSDSubTagItem.h */,
+				6C5818801E237F7900A0BBC9 /* LSDSubTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -514,6 +606,9 @@
 		6C8320171E1F320700BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C58187A1E237F5700A0BBC9 /* LSDSubTagCell.h */,
+				6C58187B1E237F5700A0BBC9 /* LSDSubTagCell.m */,
+				6C58187C1E237F5700A0BBC9 /* LSDSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -558,8 +653,21 @@
 				6C8320241E1F7B1C00BBDEDA /* UIView+Frame.m */,
 				6C83202A1E1F872300BBDEDA /* UIBarButtonItem+Item.h */,
 				6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */,
+				6CA03A9D1E248B3C00E768F1 /* UIStoryboard+VC.h */,
+				6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */,
+				6CA447371E25C78F000D2DCF /* UITextField+PlaceHolderColor.h */,
+				6CA447381E25C78F000D2DCF /* UITextField+PlaceHolderColor.m */,
 			);
 			path = category;
+			sourceTree = "<group>";
+		};
+		6CD049351E26164A00FFEEEF /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6CD049361E26168000FFEEEF /* LSDModulesNet.h */,
+				6CD049371E26168000FFEEEF /* LSDModulesNet.m */,
+			);
+			path = Net;
 			sourceTree = "<group>";
 		};
 		EBD674950F113E525C8C7C90 /* Pods */ = {
@@ -641,6 +749,7 @@
 				TargetAttributes = {
 					6C28BC021E1CC07C00BB6281 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 392TQSX9ET;
 						ProvisioningStyle = Automatic;
 					};
 					6C28BC1B1E1CC07C00BB6281 = {
@@ -683,13 +792,17 @@
 				6C28BC161E1CC07C00BB6281 /* LaunchScreen.storyboard in Resources */,
 				6C5818591E233DC100A0BBC9 /* LaunchImage-700-568h@2x.png in Resources */,
 				6C58185D1E233DC100A0BBC9 /* LaunchImage.png in Resources */,
+				6C58187E1E237F5700A0BBC9 /* LSDSubTagCell.xib in Resources */,
 				6C28BC131E1CC07C00BB6281 /* Assets.xcassets in Resources */,
+				6CA447431E25D870000D2DCF /* LSDCollectionCell.xib in Resources */,
 				6C58185A1E233DC100A0BBC9 /* LaunchImage-700@2x.png in Resources */,
 				6C58185C1E233DC100A0BBC9 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */,
 				6C5818581E233DC100A0BBC9 /* LaunchImage-568h@2x.png in Resources */,
 				6C58185B1E233DC100A0BBC9 /* LaunchImage-800-667h@2x.png in Resources */,
 				6C5818671E233E6E00A0BBC9 /* LSDAdVC.xib in Resources */,
 				6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */,
+				6C7EEC6E1E24D4B60058875D /* LSDLoginRegistView.xib in Resources */,
 				6C58185E1E233DC100A0BBC9 /* LaunchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -763,24 +876,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5818791E237EDA00A0BBC9 /* LSDSubTagVC.m in Sources */,
+				6CA447361E25C1DA000D2DCF /* LSDTextField.m in Sources */,
+				6CA447461E25D9E9000D2DCF /* LSDModuleItem.m in Sources */,
 				6C83200D1E1F316200BBDEDA /* LSDFriendTrendVC.m in Sources */,
 				6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */,
 				6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */,
+				6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */,
+				6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */,
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
+				6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */,
 				6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */,
 				6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */,
+				6C58187D1E237F5700A0BBC9 /* LSDSubTagCell.m in Sources */,
+				6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
+				6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */,
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
+				6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */,
+				6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */,
+				6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */,
 				6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */,
 				6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */,
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
 				6C58186F1E2363D300A0BBC9 /* LSDBaseNet.m in Sources */,
+				6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */,
+				6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */,
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,
 				6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */,
+				6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */,
 				6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */,
+				6CA447391E25C78F000D2DCF /* UITextField+PlaceHolderColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,6 +1058,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 392TQSX9ET;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LSDBuDeJie/Other/LSDBuDeJie.pch;
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;
@@ -945,6 +1075,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 392TQSX9ET;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LSDBuDeJie/Other/LSDBuDeJie.pch;
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;

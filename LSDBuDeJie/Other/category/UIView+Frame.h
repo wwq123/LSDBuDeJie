@@ -13,4 +13,6 @@
 @property (nonatomic, assign) CGFloat lsd_height;
 @property (nonatomic, assign) CGFloat lsd_x;
 @property (nonatomic, assign) CGFloat lsd_y;
+@property (nonatomic, assign) CGFloat lsd_centerX;
+@property (nonatomic, assign) CGFloat lsd_centerY;
 @end

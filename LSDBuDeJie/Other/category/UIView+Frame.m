@@ -49,4 +49,24 @@
     return self.frame.origin.y;
 }
 
+- (void)setLsd_centerX:(CGFloat)lsd_centerX{
+    CGPoint center = self.center;
+    center.x = lsd_centerX;
+    self.center = center;
+}
+
+- (CGFloat)lsd_centerX{
+    return self.center.x;
+}
+
+- (void)setLsd_centerY:(CGFloat)lsd_centerY{
+    CGPoint center = self.center;
+    center.y = lsd_centerY;
+    self.center = center;
+}
+
+- (CGFloat)lsd_centerY{
+    return self.center.y;
+}
+
 @end

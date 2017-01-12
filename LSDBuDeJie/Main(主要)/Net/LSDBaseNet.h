@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class AFHTTPSessionManager;
 
 typedef void(^SuccessBlock)(id responseObject);
 typedef void(^FailureBlock)(NSString *errorDes);
@@ -19,6 +20,13 @@ typedef void(^FailureBlock)(NSString *errorDes);
  */
 + (instancetype)shareBaseNet;
 
+
+/**
+ AFHTTPSessionManager
+
+ @return 返回请求管理者AFHTTPSessionManager
+ */
+- (AFHTTPSessionManager *)sessionManager;
 
 /**
  请求

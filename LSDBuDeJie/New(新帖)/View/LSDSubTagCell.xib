@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LSDSubTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aVF-Gy-OSf">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="aVF-Gy-OSf" secondAttribute="height" multiplier="1:1" id="efg-7F-Ljk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbT-sr-Jbh">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0C-eB-puF">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.74682474139999999" green="0.7679386735" blue="0.82546192409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="LSDSubTagCell" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmI-n5-3NK">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="jKL-2M-jrX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="+ 订阅" backgroundImage="tagButtonBG">
+                            <color key="titleColor" red="1" green="0.18771715729999999" blue="0.21397839369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="subBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cVH-FD-rVO"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSx-4c-wkP" userLabel="line">
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="qBF-l9-MtC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m0C-eB-puF" firstAttribute="leading" secondItem="hbT-sr-Jbh" secondAttribute="leading" id="0Id-B0-sWp"/>
+                    <constraint firstItem="hbT-sr-Jbh" firstAttribute="top" secondItem="aVF-Gy-OSf" secondAttribute="top" id="2lk-YJ-geT"/>
+                    <constraint firstItem="eSx-4c-wkP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="31R-jg-1OG"/>
+                    <constraint firstItem="aVF-Gy-OSf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5vQ-ps-eAQ"/>
+                    <constraint firstAttribute="trailing" secondItem="eSx-4c-wkP" secondAttribute="trailing" id="EdC-gN-bGE"/>
+                    <constraint firstItem="hbT-sr-Jbh" firstAttribute="leading" secondItem="aVF-Gy-OSf" secondAttribute="trailing" constant="10" id="HzW-ZN-Msn"/>
+                    <constraint firstAttribute="trailing" secondItem="pmI-n5-3NK" secondAttribute="trailing" constant="10" id="V6x-Ls-xc9"/>
+                    <constraint firstAttribute="bottom" secondItem="eSx-4c-wkP" secondAttribute="bottom" id="WmB-7e-QYn"/>
+                    <constraint firstAttribute="bottom" secondItem="aVF-Gy-OSf" secondAttribute="bottom" constant="10" id="c7R-AC-rlC"/>
+                    <constraint firstItem="pmI-n5-3NK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dHc-cQ-OKl"/>
+                    <constraint firstItem="m0C-eB-puF" firstAttribute="bottom" secondItem="aVF-Gy-OSf" secondAttribute="bottom" id="kJr-1e-eiV"/>
+                    <constraint firstItem="aVF-Gy-OSf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oTn-st-Bbk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageV" destination="aVF-Gy-OSf" id="wKA-Tg-A0m"/>
+                <outlet property="nameLab" destination="hbT-sr-Jbh" id="aku-OF-zKk"/>
+                <outlet property="numberLab" destination="m0C-eB-puF" id="jY7-5h-A2P"/>
+                <outlet property="subBtn" destination="pmI-n5-3NK" id="mcE-cB-WFS"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tagButtonBG" width="80" height="31"/>
+    </resources>
+</document>

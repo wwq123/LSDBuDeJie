@@ -7,6 +7,8 @@
 //
 
 #import "LSDFriendTrendVC.h"
+#import "LSDLoginVC.h"
+#import "UIStoryboard+VC.h"
 
 @interface LSDFriendTrendVC ()
 
@@ -29,5 +31,11 @@
 #pragma mark - 推荐按钮点击方法
 - (void)recomment{
     
+}
+
+#pragma mark - 登录按钮点击方法
+- (IBAction)loginBtnClick:(UIButton *)sender {
+    LSDLoginVC *loginVC = (LSDLoginVC *)[UIStoryboard controllerWithStoryBoardName:LSDMian identifier:NSStringFromClass([LSDLoginVC class])];
+    [self presentViewController:loginVC animated:YES completion:nil];
 }
 @end

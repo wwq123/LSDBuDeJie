@@ -8,3 +8,11 @@
 
 
 CGFloat const LSDTimeOut = 15.f;
+
+NSString *const LSDMian = @"Main";
+
+
+/*********************我的模块********************/
+CGFloat const LSD_collectionCellMargin = 1.f;
+NSInteger const LSD_collcetionViewCols = 4;
+/*********************我的模块********************/

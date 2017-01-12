@@ -14,6 +14,7 @@
 #import "LSDMeVC.h"
 #import "LSDTabBar.h"
 #import "LSDNavigationVC.h"
+#import "UIStoryboard+VC.h"
 
 @interface LSDTabBarVC ()
 
@@ -51,7 +52,7 @@
     
    LSDNavigationVC *nav1 = [self childNavVCWithVC:[LSDNewVC new] Title:@"新帖" normalImageName:@"tabBar_new_icon" selectImageName:@"tabBar_new_click_icon"];
     
-   LSDNavigationVC *nav2 = [self childNavVCWithVC:[LSDFriendTrendVC new] Title:@"关注" normalImageName:@"tabBar_friendTrends_icon" selectImageName:@"tabBar_friendTrends_click_icon"];
+   LSDNavigationVC *nav2 = [self childNavVCWithVC:[UIStoryboard controllerWithStoryBoardName:LSDMian identifier:NSStringFromClass([LSDFriendTrendVC class])] Title:@"关注" normalImageName:@"tabBar_friendTrends_icon" selectImageName:@"tabBar_friendTrends_click_icon"];
     
    LSDNavigationVC *nav3 = [self childNavVCWithVC:[LSDMeVC new] Title:@"我" normalImageName:@"tabBar_me_icon" selectImageName:@"tabBar_me_click_icon"];
     

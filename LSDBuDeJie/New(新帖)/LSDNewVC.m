@@ -7,7 +7,7 @@
 //
 
 #import "LSDNewVC.h"
-
+#import "LSDSubTagVC.h"
 @interface LSDNewVC ()
 
 @end
@@ -28,7 +28,8 @@
 }
 #pragma mark - 按钮点击方法
 - (void)tagSub{
-    
+    LSDSubTagVC *subTagVC = [[LSDSubTagVC alloc] init];
+    [self.navigationController pushViewController:subTagVC animated:YES];
 }
 
 @end

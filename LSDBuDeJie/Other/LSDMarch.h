@@ -7,7 +7,6 @@
 //
 
 
-
 /****************************屏幕适配****************************/
 #define Screen_width [UIScreen mainScreen].bounds.size.width
 #define Screen_height [UIScreen mainScreen].bounds.size.height
@@ -31,3 +30,4 @@
 /****************************自定义Log****************************/
 
 #define LSDApplication [UIApplication sharedApplication]
+#define LSDColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1];

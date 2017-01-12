@@ -51,6 +51,10 @@ static LSDBaseNet *_baseNet = nil;
     return self;
 }
 
+- (AFHTTPSessionManager *)sessionManager{
+    return _manager;
+}
+
 - (void)requestWithMode:(NSString *)mode url:(NSString *)url parameter:(NSMutableDictionary *)parameter successBlock:(SuccessBlock)successBlock failureBlock:(SuccessBlock)failureBlock{
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     if ([mode isEqualToString:@"get"]) {

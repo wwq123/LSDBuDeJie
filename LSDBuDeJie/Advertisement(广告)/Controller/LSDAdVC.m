@@ -31,7 +31,7 @@
     //设置启动图片
     [self setupLanuchImage];
     //获取广告数据
-    [self loadADData];
+    [self loadData];
     //倒计时定时器
     [self setupTimer];
 }
@@ -50,13 +50,13 @@
     self.lanuchImageView.image = [UIImage imageNamed:imageName];
 }
 
-- (void)loadADData{
+- (void)loadData{
     LSDAdNet *adNet = [[LSDAdNet alloc] init];
     [adNet adRequestWithSuccessBlock:^(LSDAdItem *adItem) {
         LSDLog(@"item : %@",adItem);
         if (adItem) {
             self.adItem = adItem;
-            CGFloat adH = adItem.w *Screen_height/Screen_width;
+            CGFloat adH = Screen_width/adItem.w*adItem.h;
             self.adImageV.frame = CGRectMake(0, 0, Screen_width, adH);
             [self.adImageV sd_setImageWithURL:[NSURL URLWithString:adItem.w_picurl]];
         }
@@ -95,6 +95,7 @@
 - (UIImageView *)adImageV{
     if (_adImageV == nil) {
         _adImageV = [[UIImageView alloc] init];
+        _adImageV.userInteractionEnabled = YES;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClickAD)];
         [_adImageV addGestureRecognizer:tap];
         [self.adHoldView addSubview:_adImageV];

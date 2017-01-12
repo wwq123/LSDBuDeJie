@@ -9,6 +9,6 @@
 #import "LSDBaseNet.h"
 @class LSDAdItem;
 
-@interface LSDAdNet : LSDBaseNet
+@interface LSDAdNet : NSObject
 - (void)adRequestWithSuccessBlock:(void(^)(LSDAdItem *adItem))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock;
 @end
