@@ -27,7 +27,7 @@ static NSString *const LSDMeNormalCellIdentifier = @"LSDMeNormalCellIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = LSDColor(220, 220, 221);
+    self.view.backgroundColor = LSDBackgroundColor;
     //设置导航条
     [self setupNavBar];
     //设置TableView
@@ -38,7 +38,7 @@ static NSString *const LSDMeNormalCellIdentifier = @"LSDMeNormalCellIdentifier";
 
 - (void)setupNavBar{
     self.navigationItem.title = @"我的";
-    self.view.backgroundColor = LSDColor(220, 220, 221);
+    self.view.backgroundColor = LSDBackgroundColor;
     //设置夜间和设置按钮
     UIBarButtonItem *settingBarItem = [UIBarButtonItem itemWithNormalImage:[UIImage imageNamed:@"mine-setting-icon"] highImage:[UIImage imageNamed:@"mine-setting-icon-click"]  target:self action:@selector(settingClick)];
     UIBarButtonItem *nightBarItem = [UIBarButtonItem itemWithNormalImage:[UIImage imageNamed:@"mine-moon-icon"] selImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(nightClick:)];
@@ -46,7 +46,7 @@ static NSString *const LSDMeNormalCellIdentifier = @"LSDMeNormalCellIdentifier";
 }
 
 - (void)setupTableView{
-    self.tableView.backgroundColor = LSDColor(220, 220, 221);
+    self.tableView.backgroundColor = LSDBackgroundColor;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:LSDMeNormalCellIdentifier];
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C8DA84A5DAC9C1F30E41F4D /* libPods-LSDBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD4B7C53995C19DD49228B /* libPods-LSDBuDeJie.a */; };
+		6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF291E276A71005DB676 /* NSString+Extension.m */; };
+		6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */; };
+		6C05CF301E278059005DB676 /* LSDFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF2F1E278059005DB676 /* LSDFileTool.m */; };
 		6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC0F1E1CC07C00BB6281 /* Main.storyboard */; };
 		6C28BC131E1CC07C00BB6281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC121E1CC07C00BB6281 /* Assets.xcassets */; };
 		6C28BC161E1CC07C00BB6281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC141E1CC07C00BB6281 /* LaunchScreen.storyboard */; };
@@ -37,6 +40,8 @@
 		6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC6B1E24D4940058875D /* LSDLoginRegistView.m */; };
 		6C7EEC6E1E24D4B60058875D /* LSDLoginRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC6D1E24D4B60058875D /* LSDLoginRegistView.xib */; };
 		6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80117D1E271EC4002B7EFC /* LSDWebViewVC.m */; };
+		6C8011811E274F2B002B7EFC /* LSDSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8011801E274F2B002B7EFC /* LSDSectionHeadView.m */; };
+		6C8011831E274F52002B7EFC /* LSDSectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8011821E274F52002B7EFC /* LSDSectionHeadView.xib */; };
 		6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */; };
 		6C8320041E1F30C500BBDEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831FFE1E1F30C500BBDEDA /* main.m */; };
 		6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320061E1F30F500BBDEDA /* LSDTabBarVC.m */; };
@@ -82,6 +87,12 @@
 		35AD4B7C53995C19DD49228B /* libPods-LSDBuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSDBuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533132B75CAF9C00C03BE45C /* Pods-LSDBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSDBuDeJie/Pods-LSDBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		6121EF2147CB3625C9A3DA86 /* Pods-LSDBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSDBuDeJie/Pods-LSDBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
+		6C05CF281E276A71005DB676 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		6C05CF291E276A71005DB676 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		6C05CF2B1E2778AD005DB676 /* LSDMsgAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDMsgAlertView.h; sourceTree = "<group>"; };
+		6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDMsgAlertView.m; sourceTree = "<group>"; };
+		6C05CF2E1E278059005DB676 /* LSDFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFileTool.h; sourceTree = "<group>"; };
+		6C05CF2F1E278059005DB676 /* LSDFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFileTool.m; sourceTree = "<group>"; };
 		6C28BC031E1CC07C00BB6281 /* LSDBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C28BC101E1CC07C00BB6281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C28BC121E1CC07C00BB6281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,6 +142,9 @@
 		6C7EEC6D1E24D4B60058875D /* LSDLoginRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDLoginRegistView.xib; sourceTree = "<group>"; };
 		6C80117C1E271EC4002B7EFC /* LSDWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDWebViewVC.h; sourceTree = "<group>"; };
 		6C80117D1E271EC4002B7EFC /* LSDWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDWebViewVC.m; sourceTree = "<group>"; };
+		6C80117F1E274F2B002B7EFC /* LSDSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSectionHeadView.h; sourceTree = "<group>"; };
+		6C8011801E274F2B002B7EFC /* LSDSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSectionHeadView.m; sourceTree = "<group>"; };
+		6C8011821E274F52002B7EFC /* LSDSectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDSectionHeadView.xib; sourceTree = "<group>"; };
 		6C831FFC1E1F30C500BBDEDA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C831FFE1E1F30C500BBDEDA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -635,6 +649,8 @@
 		6C8320201E1F7AE900BBDEDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6C05CF2E1E278059005DB676 /* LSDFileTool.h */,
+				6C05CF2F1E278059005DB676 /* LSDFileTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -642,6 +658,11 @@
 		6C8320211E1F7AE900BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C05CF2B1E2778AD005DB676 /* LSDMsgAlertView.h */,
+				6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */,
+				6C80117F1E274F2B002B7EFC /* LSDSectionHeadView.h */,
+				6C8011801E274F2B002B7EFC /* LSDSectionHeadView.m */,
+				6C8011821E274F52002B7EFC /* LSDSectionHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -657,6 +678,8 @@
 				6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */,
 				6CA447371E25C78F000D2DCF /* UITextField+PlaceHolderColor.h */,
 				6CA447381E25C78F000D2DCF /* UITextField+PlaceHolderColor.m */,
+				6C05CF281E276A71005DB676 /* NSString+Extension.h */,
+				6C05CF291E276A71005DB676 /* NSString+Extension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -801,6 +824,7 @@
 				6C5818581E233DC100A0BBC9 /* LaunchImage-568h@2x.png in Resources */,
 				6C58185B1E233DC100A0BBC9 /* LaunchImage-800-667h@2x.png in Resources */,
 				6C5818671E233E6E00A0BBC9 /* LSDAdVC.xib in Resources */,
+				6C8011831E274F52002B7EFC /* LSDSectionHeadView.xib in Resources */,
 				6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */,
 				6C7EEC6E1E24D4B60058875D /* LSDLoginRegistView.xib in Resources */,
 				6C58185E1E233DC100A0BBC9 /* LaunchImage@2x.png in Resources */,
@@ -883,6 +907,7 @@
 				6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */,
 				6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */,
 				6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */,
+				6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */,
 				6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */,
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
 				6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */,
@@ -894,6 +919,7 @@
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
 				6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */,
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
+				6C05CF301E278059005DB676 /* LSDFileTool.m in Sources */,
 				6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */,
 				6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */,
 				6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */,
@@ -901,6 +927,7 @@
 				6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */,
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
+				6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */,
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
 				6C58186F1E2363D300A0BBC9 /* LSDBaseNet.m in Sources */,
 				6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */,
@@ -908,6 +935,7 @@
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,
 				6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */,
 				6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */,
+				6C8011811E274F2B002B7EFC /* LSDSectionHeadView.m in Sources */,
 				6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */,
 				6CA447391E25C78F000D2DCF /* UITextField+PlaceHolderColor.m in Sources */,
 			);

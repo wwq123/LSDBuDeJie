@@ -30,4 +30,7 @@
 /****************************自定义Log****************************/
 
 #define LSDApplication [UIApplication sharedApplication]
+#define LSDUserDefaults [NSUserDefaults standardUserDefaults]
 #define LSDColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1];
+#define LSDBackgroundColor LSDColor(220, 220, 221)
+#define LSDCurrentVersion [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"]

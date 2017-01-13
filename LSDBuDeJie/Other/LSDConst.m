@@ -15,4 +15,5 @@ NSString *const LSDMian = @"Main";
 /*********************我的模块********************/
 CGFloat const LSD_collectionCellMargin = 1.f;
 NSInteger const LSD_collcetionViewCols = 4;
+NSString *const LSDSettingSegmentSelectIndex = @"LSDSettingSegmentSelectIndex";
 /*********************我的模块********************/

@@ -20,7 +20,7 @@ static NSString *const LSDcollectionCellIdentifier = @"LSDcollectionCellIdentifi
 
 - (instancetype)initWithModules:(NSArray *)modules{
     if (self == [super init]) {
-        self.backgroundColor = LSDColor(220, 220, 221);
+        self.backgroundColor = LSDBackgroundColor;
         [self addSubview:self.collectionView];
         self.modules = modules;
     }
@@ -73,7 +73,7 @@ static NSString *const LSDcollectionCellIdentifier = @"LSDcollectionCellIdentifi
 - (UICollectionView *)collectionView{
     if (_collectionView == nil) {
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:self.flowLayout];
-        _collectionView.backgroundColor = LSDColor(220, 220, 221);
+        _collectionView.backgroundColor = LSDBackgroundColor;
         _collectionView.showsVerticalScrollIndicator = NO;
         _collectionView.showsHorizontalScrollIndicator = NO;
         _collectionView.scrollEnabled = NO;
