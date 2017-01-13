@@ -1,5 +1,5 @@
 //
-//  LSDBaseNet.h
+//  LSDBaseNetTool.h
 //  LSDBuDeJie
 //
 //  Created by SelenaWong on 17/1/9.
@@ -11,12 +11,12 @@
 
 typedef void(^SuccessBlock)(id responseObject);
 typedef void(^FailureBlock)(NSString *errorDes);
-@interface LSDBaseNet : NSObject
+@interface LSDBaseNetTool : NSObject
 
 /**
  单例
 
- @return LSDBaseNet
+ @return LSDBaseNetTool
  */
 + (instancetype)shareBaseNet;
 

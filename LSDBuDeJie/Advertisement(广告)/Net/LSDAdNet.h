@@ -6,7 +6,7 @@
 //  Copyright © 2017年 SelenaWong. All rights reserved.
 //
 
-#import "LSDBaseNet.h"
+#import "LSDBaseNetTool.h"
 @class LSDAdItem;
 
 @interface LSDAdNet : NSObject

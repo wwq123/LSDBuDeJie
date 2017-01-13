@@ -9,7 +9,7 @@
 #import "LSDSubTagNet.h"
 #import <MJExtension/MJExtension.h>
 #import "LSDSubTagItem.h"
-#import "LSDBaseNet.h"
+#import "LSDBaseNetTool.h"
 
 #define SubTagUrl @"http://api.budejie.com/api/api_open.php"
 
@@ -20,7 +20,7 @@
     param[@"action"] = @"sub";
     param[@"c"] = @"topic";
     
-    LSDBaseNet *baseNet = [LSDBaseNet shareBaseNet];
+    LSDBaseNetTool *baseNet = [LSDBaseNetTool shareBaseNet];
     [baseNet requestWithMode:@"get" url:SubTagUrl parameter:param successBlock:^(id responseObject) {
         NSMutableArray *subTags = [LSDSubTagItem mj_objectArrayWithKeyValuesArray:responseObject];
         if (subTags) {

@@ -1,22 +1,22 @@
 //
-//  LSDBaseNet.m
+//  LSDBaseNetTool.m
 //  LSDBuDeJie
 //
 //  Created by SelenaWong on 17/1/9.
 //  Copyright © 2017年 SelenaWong. All rights reserved.
 //
 
-#import "LSDBaseNet.h"
+#import "LSDBaseNetTool.h"
 #import <AFNetworking.h>
 
-static LSDBaseNet *_baseNet = nil;
+static LSDBaseNetTool *_baseNet = nil;
 
-@interface LSDBaseNet ()
+@interface LSDBaseNetTool ()
 {
     AFHTTPSessionManager *_manager;
 }
 @end
-@implementation LSDBaseNet
+@implementation LSDBaseNetTool
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone{
     static dispatch_once_t onceToken;

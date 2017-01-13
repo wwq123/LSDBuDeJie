@@ -10,7 +10,6 @@
 		1C8DA84A5DAC9C1F30E41F4D /* libPods-LSDBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD4B7C53995C19DD49228B /* libPods-LSDBuDeJie.a */; };
 		6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF291E276A71005DB676 /* NSString+Extension.m */; };
 		6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */; };
-		6C05CF301E278059005DB676 /* LSDFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF2F1E278059005DB676 /* LSDFileTool.m */; };
 		6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC0F1E1CC07C00BB6281 /* Main.storyboard */; };
 		6C28BC131E1CC07C00BB6281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC121E1CC07C00BB6281 /* Assets.xcassets */; };
 		6C28BC161E1CC07C00BB6281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC141E1CC07C00BB6281 /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 		6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818641E233E6E00A0BBC9 /* LSDAdVC.m */; };
 		6C5818671E233E6E00A0BBC9 /* LSDAdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C5818651E233E6E00A0BBC9 /* LSDAdVC.xib */; };
 		6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58186A1E23560400A0BBC9 /* LSDConst.m */; };
-		6C58186F1E2363D300A0BBC9 /* LSDBaseNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58186E1E2363D300A0BBC9 /* LSDBaseNet.m */; };
 		6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818721E236A2500A0BBC9 /* LSDAdNet.m */; };
 		6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818751E236A8C00A0BBC9 /* LSDAdItem.m */; };
 		6C5818791E237EDA00A0BBC9 /* LSDSubTagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818781E237EDA00A0BBC9 /* LSDSubTagVC.m */; };
@@ -34,6 +32,8 @@
 		6C58187E1E237F5700A0BBC9 /* LSDSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C58187C1E237F5700A0BBC9 /* LSDSubTagCell.xib */; };
 		6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818801E237F7900A0BBC9 /* LSDSubTagItem.m */; };
 		6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */; };
+		6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B281E28691300FA76FF /* LSDBaseNetTool.m */; };
+		6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2A1E28691300FA76FF /* LSDFileTool.m */; };
 		6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */; };
 		6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */; };
 		6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC681E24D20C0058875D /* LSDButton.m */; };
@@ -91,8 +91,6 @@
 		6C05CF291E276A71005DB676 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		6C05CF2B1E2778AD005DB676 /* LSDMsgAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDMsgAlertView.h; sourceTree = "<group>"; };
 		6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDMsgAlertView.m; sourceTree = "<group>"; };
-		6C05CF2E1E278059005DB676 /* LSDFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFileTool.h; sourceTree = "<group>"; };
-		6C05CF2F1E278059005DB676 /* LSDFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFileTool.m; sourceTree = "<group>"; };
 		6C28BC031E1CC07C00BB6281 /* LSDBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C28BC101E1CC07C00BB6281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C28BC121E1CC07C00BB6281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,8 +115,6 @@
 		6C5818681E23544C00A0BBC9 /* LSDMarch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSDMarch.h; sourceTree = "<group>"; };
 		6C5818691E23560400A0BBC9 /* LSDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDConst.h; sourceTree = "<group>"; };
 		6C58186A1E23560400A0BBC9 /* LSDConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDConst.m; sourceTree = "<group>"; };
-		6C58186D1E2363D300A0BBC9 /* LSDBaseNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBaseNet.h; sourceTree = "<group>"; };
-		6C58186E1E2363D300A0BBC9 /* LSDBaseNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBaseNet.m; sourceTree = "<group>"; };
 		6C5818711E236A2500A0BBC9 /* LSDAdNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAdNet.h; sourceTree = "<group>"; };
 		6C5818721E236A2500A0BBC9 /* LSDAdNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAdNet.m; sourceTree = "<group>"; };
 		6C5818741E236A8C00A0BBC9 /* LSDAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAdItem.h; sourceTree = "<group>"; };
@@ -132,6 +128,10 @@
 		6C5818801E237F7900A0BBC9 /* LSDSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagItem.m; sourceTree = "<group>"; };
 		6C5818831E23847100A0BBC9 /* LSDSubTagNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSubTagNet.h; sourceTree = "<group>"; };
 		6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSubTagNet.m; sourceTree = "<group>"; };
+		6C585B271E28691300FA76FF /* LSDBaseNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBaseNetTool.h; sourceTree = "<group>"; };
+		6C585B281E28691300FA76FF /* LSDBaseNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBaseNetTool.m; sourceTree = "<group>"; };
+		6C585B291E28691300FA76FF /* LSDFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFileTool.h; sourceTree = "<group>"; };
+		6C585B2A1E28691300FA76FF /* LSDFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFileTool.m; sourceTree = "<group>"; };
 		6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFastLoginView.h; sourceTree = "<group>"; };
 		6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFastLoginView.m; sourceTree = "<group>"; };
 		6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDFastLoginView.xib; sourceTree = "<group>"; };
@@ -352,15 +352,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6C58186C1E2363AF00A0BBC9 /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				6C58186D1E2363D300A0BBC9 /* LSDBaseNet.h */,
-				6C58186E1E2363D300A0BBC9 /* LSDBaseNet.m */,
-			);
-			path = Net;
-			sourceTree = "<group>";
-		};
 		6C5818701E236A0600A0BBC9 /* Net */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +368,17 @@
 				6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */,
 			);
 			path = Net;
+			sourceTree = "<group>";
+		};
+		6C585B261E28691300FA76FF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6C585B271E28691300FA76FF /* LSDBaseNetTool.h */,
+				6C585B281E28691300FA76FF /* LSDBaseNetTool.m */,
+				6C585B291E28691300FA76FF /* LSDFileTool.h */,
+				6C585B2A1E28691300FA76FF /* LSDFileTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		6C831FEB1E1F30C400BBDEDA /* Essence(精华) */ = {
@@ -463,7 +465,6 @@
 				6C831FF41E1F30C500BBDEDA /* Controller */,
 				6C831FF51E1F30C500BBDEDA /* Model */,
 				6C831FF61E1F30C500BBDEDA /* View */,
-				6C58186C1E2363AF00A0BBC9 /* Net */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -541,6 +542,7 @@
 		6C831FFB1E1F30C500BBDEDA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				6C585B261E28691300FA76FF /* Tool */,
 				6C8320221E1F7AF700BBDEDA /* category */,
 				6C831FFC1E1F30C500BBDEDA /* AppDelegate.h */,
 				6C831FFD1E1F30C500BBDEDA /* AppDelegate.m */,
@@ -649,8 +651,6 @@
 		6C8320201E1F7AE900BBDEDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6C05CF2E1E278059005DB676 /* LSDFileTool.h */,
-				6C05CF2F1E278059005DB676 /* LSDFileTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -917,9 +917,10 @@
 				6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
+				6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */,
 				6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */,
+				6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */,
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
-				6C05CF301E278059005DB676 /* LSDFileTool.m in Sources */,
 				6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */,
 				6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */,
 				6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */,
@@ -929,7 +930,6 @@
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
 				6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */,
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
-				6C58186F1E2363D300A0BBC9 /* LSDBaseNet.m in Sources */,
 				6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */,
 				6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */,
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,

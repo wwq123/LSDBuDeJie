@@ -31,7 +31,7 @@
     [super viewDidDisappear:animated];
     [SVProgressHUD dismiss];
     //取消之前请求
-    AFHTTPSessionManager *manager = [LSDBaseNet shareBaseNet].sessionManager;
+    AFHTTPSessionManager *manager = [LSDBaseNetTool shareBaseNet].sessionManager;
     [manager.tasks makeObjectsPerformSelector:@selector(cancel)];
 }
 

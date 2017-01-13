@@ -7,7 +7,7 @@
 //
 
 #import "LSDModulesNet.h"
-#import "LSDBaseNet.h"
+#import "LSDBaseNetTool.h"
 #import <MJExtension/MJExtension.h>
 #import "LSDModuleItem.h"
 
@@ -18,7 +18,7 @@
     param[@"a"] = @"square";
     param[@"c"] = @"topic";
     
-    LSDBaseNet *baseNet = [LSDBaseNet shareBaseNet];
+    LSDBaseNetTool *baseNet = [LSDBaseNetTool shareBaseNet];
     [baseNet requestWithMode:@"get" url:ModulesUrl parameter:param successBlock:^(id responseObject) {
         NSArray *dictArr = responseObject[@"square_list"];
         if (dictArr) {
