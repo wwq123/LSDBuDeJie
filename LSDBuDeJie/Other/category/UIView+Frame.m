@@ -69,4 +69,7 @@
     return self.center.y;
 }
 
+//- (CGSize)sizeWithString:(NSString *)string{
+//    CGSize size = [string boundingRectWithSize:<#(CGSize)#> options:<#(NSStringDrawingOptions)#> attributes:<#(nullable NSDictionary<NSString *,id> *)#> context:<#(nullable NSStringDrawingContext *)#>];
+//}
 @end

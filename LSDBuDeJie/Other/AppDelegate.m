@@ -20,8 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     //设置广告页面
-    LSDAdVC *adVC = [[LSDAdVC alloc] init];
-    self.window.rootViewController = adVC;
+//    LSDAdVC *adVC = [[LSDAdVC alloc] init];
+//    self.window.rootViewController = adVC;
+    LSDTabBarVC *tabBarVC = [[LSDTabBarVC alloc] init];
+    self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

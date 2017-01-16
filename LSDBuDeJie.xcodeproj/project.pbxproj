@@ -34,6 +34,7 @@
 		6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5818841E23847100A0BBC9 /* LSDSubTagNet.m */; };
 		6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B281E28691300FA76FF /* LSDBaseNetTool.m */; };
 		6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2A1E28691300FA76FF /* LSDFileTool.m */; };
+		6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2E1E28759700FA76FF /* LSDTitleView.m */; };
 		6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */; };
 		6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */; };
 		6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC681E24D20C0058875D /* LSDButton.m */; };
@@ -64,6 +65,11 @@
 		6CA447461E25D9E9000D2DCF /* LSDModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */; };
 		6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD049371E26168000FFEEEF /* LSDModulesNet.m */; };
 		6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */; };
+		6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */; };
+		6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */; };
+		6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */; };
+		6CFC6BD51E28AD6600F4E5C2 /* LSDPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */; };
+		6CFC6BD81E28AD9600F4E5C2 /* LSDJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +138,8 @@
 		6C585B281E28691300FA76FF /* LSDBaseNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBaseNetTool.m; sourceTree = "<group>"; };
 		6C585B291E28691300FA76FF /* LSDFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFileTool.h; sourceTree = "<group>"; };
 		6C585B2A1E28691300FA76FF /* LSDFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFileTool.m; sourceTree = "<group>"; };
+		6C585B2D1E28759700FA76FF /* LSDTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTitleView.h; sourceTree = "<group>"; };
+		6C585B2E1E28759700FA76FF /* LSDTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTitleView.m; sourceTree = "<group>"; };
 		6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFastLoginView.h; sourceTree = "<group>"; };
 		6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFastLoginView.m; sourceTree = "<group>"; };
 		6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDFastLoginView.xib; sourceTree = "<group>"; };
@@ -188,6 +196,16 @@
 		6CD049371E26168000FFEEEF /* LSDModulesNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModulesNet.m; sourceTree = "<group>"; };
 		6CD049391E2627FA00FFEEEF /* LSDFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFootView.h; sourceTree = "<group>"; };
 		6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFootView.m; sourceTree = "<group>"; };
+		6CFC6BCA1E28AD2900F4E5C2 /* LSDAllColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnVC.h; sourceTree = "<group>"; };
+		6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnVC.m; sourceTree = "<group>"; };
+		6CFC6BCD1E28AD3B00F4E5C2 /* LSDVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDVideoVC.h; sourceTree = "<group>"; };
+		6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDVideoVC.m; sourceTree = "<group>"; };
+		6CFC6BD01E28AD4E00F4E5C2 /* LSDSoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSoundVC.h; sourceTree = "<group>"; };
+		6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSoundVC.m; sourceTree = "<group>"; };
+		6CFC6BD31E28AD6600F4E5C2 /* LSDPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPictureVC.h; sourceTree = "<group>"; };
+		6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPictureVC.m; sourceTree = "<group>"; };
+		6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDJokesVC.h; sourceTree = "<group>"; };
+		6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDJokesVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +414,16 @@
 			children = (
 				6C83200E1E1F317900BBDEDA /* LSDEssenceVC.h */,
 				6C83200F1E1F317900BBDEDA /* LSDEssenceVC.m */,
+				6CFC6BCA1E28AD2900F4E5C2 /* LSDAllColumnVC.h */,
+				6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */,
+				6CFC6BCD1E28AD3B00F4E5C2 /* LSDVideoVC.h */,
+				6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */,
+				6CFC6BD01E28AD4E00F4E5C2 /* LSDSoundVC.h */,
+				6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */,
+				6CFC6BD31E28AD6600F4E5C2 /* LSDPictureVC.h */,
+				6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */,
+				6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */,
+				6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -410,6 +438,8 @@
 		6C831FEE1E1F30C400BBDEDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C585B2D1E28759700FA76FF /* LSDTitleView.h */,
+				6C585B2E1E28759700FA76FF /* LSDTitleView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -908,15 +938,18 @@
 				6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */,
 				6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */,
 				6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */,
+				6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */,
 				6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */,
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
 				6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */,
 				6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */,
 				6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */,
 				6C58187D1E237F5700A0BBC9 /* LSDSubTagCell.m in Sources */,
+				6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */,
 				6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
+				6CFC6BD51E28AD6600F4E5C2 /* LSDPictureVC.m in Sources */,
 				6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */,
 				6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */,
 				6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */,
@@ -927,6 +960,8 @@
 				6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */,
 				6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */,
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
+				6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */,
+				6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
 				6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */,
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
@@ -934,6 +969,7 @@
 				6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */,
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,
 				6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */,
+				6CFC6BD81E28AD9600F4E5C2 /* LSDJokesVC.m in Sources */,
 				6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */,
 				6C8011811E274F2B002B7EFC /* LSDSectionHeadView.m in Sources */,
 				6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */,

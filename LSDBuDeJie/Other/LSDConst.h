@@ -17,3 +17,7 @@ extern const CGFloat LSD_collectionCellMargin;
 extern const NSInteger LSD_collcetionViewCols;
 extern NSString *const LSDSettingSegmentSelectIndex;
 /*********************我的模块********************/
+
+/*********************精华模块********************/
+extern const CGFloat LSD_titleViewH;
+/*********************精华模块********************/
