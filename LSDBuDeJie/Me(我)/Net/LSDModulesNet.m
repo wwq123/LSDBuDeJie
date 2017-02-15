@@ -11,7 +11,7 @@
 #import <MJExtension/MJExtension.h>
 #import "LSDModuleItem.h"
 
-#define ModulesUrl @"http://api.budejie.com/api/api_open.php"
+
 @implementation LSDModulesNet
 - (void)modulesRequestWithSuccessBlock:(void(^)(NSMutableArray *allModules))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock{
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
@@ -19,7 +19,7 @@
     param[@"c"] = @"topic";
     
     LSDBaseNetTool *baseNet = [LSDBaseNetTool shareBaseNet];
-    [baseNet requestWithMode:@"get" url:ModulesUrl parameter:param successBlock:^(id responseObject) {
+    [baseNet requestWithMode:@"get" url:LSDBaseRequestUrl parameter:param successBlock:^(id responseObject) {
         NSArray *dictArr = responseObject[@"square_list"];
         if (dictArr) {
             NSMutableArray *allModules = [LSDModuleItem mj_objectArrayWithKeyValuesArray:dictArr];

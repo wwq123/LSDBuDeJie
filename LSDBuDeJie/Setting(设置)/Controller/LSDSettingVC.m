@@ -28,6 +28,7 @@ static NSString *const LSDSettingCellIdentifier = @"LSDSettingCellIdentifier";
     self.navigationItem.title = @"设置";
     self.view.backgroundColor = LSDBackgroundColor;
     self.tableView.backgroundColor = LSDBackgroundColor;
+    self.tableView.scrollEnabled = NO;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:LSDSettingCellIdentifier];
     NSNumber *segmentSelect = [LSDUserDefaults objectForKey:LSDSettingSegmentSelectIndex];
     if (segmentSelect) {
@@ -67,7 +68,7 @@ static NSString *const LSDSettingCellIdentifier = @"LSDSettingCellIdentifier";
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
     }
-    [cell.textLabel setFont:[UIFont systemFontOfSize:13.f]];
+    [cell.textLabel setFont:[UIFont systemFontOfSize:15.f]];
     cell.textLabel.text = self.titles[indexPath.section][indexPath.row];
     return cell;
 }

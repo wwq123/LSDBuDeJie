@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LSDColumnSoundView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHM-4K-TaD"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8E-sk-OUp">
+                    <state key="normal" image="playButtonPlay"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yex-Zu-0Te">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOx-h7-V2K">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g8E-sk-OUp" firstAttribute="centerX" secondItem="IHM-4K-TaD" secondAttribute="centerX" id="5YG-ks-IMC"/>
+                <constraint firstItem="IHM-4K-TaD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DFV-i0-pQg"/>
+                <constraint firstAttribute="bottom" secondItem="Yex-Zu-0Te" secondAttribute="bottom" constant="5" id="Mgw-is-FT8"/>
+                <constraint firstAttribute="trailing" secondItem="IHM-4K-TaD" secondAttribute="trailing" id="Ql7-Mq-e5Z"/>
+                <constraint firstItem="Yex-Zu-0Te" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="YQt-xc-9cZ"/>
+                <constraint firstItem="IHM-4K-TaD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bWh-UZ-a4K"/>
+                <constraint firstAttribute="bottom" secondItem="rOx-h7-V2K" secondAttribute="bottom" constant="5" id="cyX-Jy-81n"/>
+                <constraint firstAttribute="trailing" secondItem="rOx-h7-V2K" secondAttribute="trailing" constant="5" id="kVC-TM-za4"/>
+                <constraint firstItem="g8E-sk-OUp" firstAttribute="centerY" secondItem="IHM-4K-TaD" secondAttribute="centerY" id="oL3-cK-ZEo"/>
+                <constraint firstAttribute="bottom" secondItem="IHM-4K-TaD" secondAttribute="bottom" id="vsE-U1-rYY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentImageV" destination="IHM-4K-TaD" id="6mo-cr-X8x"/>
+                <outlet property="playBtn" destination="g8E-sk-OUp" id="ynB-sp-Mo3"/>
+                <outlet property="playCountLab" destination="Yex-Zu-0Te" id="ONM-yl-gpQ"/>
+                <outlet property="soundTimeLab" destination="rOx-h7-V2K" id="OYi-dy-Y6o"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="playButtonPlay" width="30" height="30"/>
+    </resources>
+</document>

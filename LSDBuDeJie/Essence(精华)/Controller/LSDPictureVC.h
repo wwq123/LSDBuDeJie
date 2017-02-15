@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSDPictureVC : UIViewController
+@interface LSDPictureVC : UITableViewController
 
 @end

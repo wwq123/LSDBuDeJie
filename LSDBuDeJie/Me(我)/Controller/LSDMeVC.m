@@ -83,7 +83,7 @@ static NSString *const LSDMeNormalCellIdentifier = @"LSDMeNormalCellIdentifier";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     if (section == 1) {
-        return 10.f;
+        return LSD_ColumnUnifyMargin;
     }
     return 0.1f;
 }
@@ -110,7 +110,7 @@ static NSString *const LSDMeNormalCellIdentifier = @"LSDMeNormalCellIdentifier";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 10.f;
+    return LSD_ColumnUnifyMargin;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

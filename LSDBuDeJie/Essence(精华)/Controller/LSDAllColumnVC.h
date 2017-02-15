@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSDAllColumnVC : UIViewController
-
+@interface LSDAllColumnVC : UITableViewController
 @end

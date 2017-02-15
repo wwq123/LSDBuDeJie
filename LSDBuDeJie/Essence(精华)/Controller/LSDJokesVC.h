@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSDJokesVC : UIViewController
+@interface LSDJokesVC : UITableViewController
 
 @end

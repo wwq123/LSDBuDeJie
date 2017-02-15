@@ -10,11 +10,15 @@
 		1C8DA84A5DAC9C1F30E41F4D /* libPods-LSDBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD4B7C53995C19DD49228B /* libPods-LSDBuDeJie.a */; };
 		6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF291E276A71005DB676 /* NSString+Extension.m */; };
 		6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */; };
+		6C10A87C1E31DFD400456658 /* LSDCommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10A87B1E31DFD400456658 /* LSDCommentItem.m */; };
+		6C10A87F1E31E02200456658 /* LSDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10A87E1E31E02200456658 /* LSDUser.m */; };
 		6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC0F1E1CC07C00BB6281 /* Main.storyboard */; };
 		6C28BC131E1CC07C00BB6281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC121E1CC07C00BB6281 /* Assets.xcassets */; };
 		6C28BC161E1CC07C00BB6281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C28BC141E1CC07C00BB6281 /* LaunchScreen.storyboard */; };
 		6C28BC211E1CC07C00BB6281 /* LSDBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C28BC201E1CC07C00BB6281 /* LSDBuDeJieTests.m */; };
 		6C28BC2C1E1CC07C00BB6281 /* LSDBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C28BC2B1E1CC07C00BB6281 /* LSDBuDeJieUITests.m */; };
+		6C55EE361E2DC5C800556DB5 /* LSDRefreshFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C55EE351E2DC5C800556DB5 /* LSDRefreshFootView.m */; };
+		6C55EE391E2DF11F00556DB5 /* LSDRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C55EE381E2DF11F00556DB5 /* LSDRefreshHeadView.m */; };
 		6C5818581E233DC100A0BBC9 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5818511E233DC100A0BBC9 /* LaunchImage-568h@2x.png */; };
 		6C5818591E233DC100A0BBC9 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5818521E233DC100A0BBC9 /* LaunchImage-700-568h@2x.png */; };
 		6C58185A1E233DC100A0BBC9 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5818531E233DC100A0BBC9 /* LaunchImage-700@2x.png */; };
@@ -35,6 +39,8 @@
 		6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B281E28691300FA76FF /* LSDBaseNetTool.m */; };
 		6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2A1E28691300FA76FF /* LSDFileTool.m */; };
 		6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2E1E28759700FA76FF /* LSDTitleView.m */; };
+		6C600D9E1E3305E100E05C30 /* LSDCommentUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */; };
+		6C74DC271E52941A00E2A9A7 /* LSDAssetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C74DC261E52941A00E2A9A7 /* LSDAssetTool.m */; };
 		6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */; };
 		6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */; };
 		6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC681E24D20C0058875D /* LSDButton.m */; };
@@ -56,6 +62,9 @@
 		6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8320281E1F81FE00BBDEDA /* LSDNavigationVC.m */; };
 		6C83202C1E1F872300BBDEDA /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */; };
 		6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */; };
+		6C86C9CF1E308FE3004EA1FB /* LSDColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86C9CD1E308FE3004EA1FB /* LSDColumnCell.m */; };
+		6C86C9D01E308FE3004EA1FB /* LSDColumnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C86C9CE1E308FE3004EA1FB /* LSDColumnCell.xib */; };
+		6C9404CB1E4D559900BB8CAC /* LSDSeeBigPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9404CA1E4D559900BB8CAC /* LSDSeeBigPictureVC.m */; };
 		6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */; };
 		6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA03AA11E248E7B00E768F1 /* LSDLoginVC.m */; };
 		6CA447361E25C1DA000D2DCF /* LSDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447351E25C1DA000D2DCF /* LSDTextField.m */; };
@@ -63,13 +72,23 @@
 		6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447401E25D870000D2DCF /* LSDCollectionCell.m */; };
 		6CA447431E25D870000D2DCF /* LSDCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA447411E25D870000D2DCF /* LSDCollectionCell.xib */; };
 		6CA447461E25D9E9000D2DCF /* LSDModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */; };
+		6CB88DB31E30B14E00A85E97 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB88DB21E30B14E00A85E97 /* UIImageView+Extension.m */; };
+		6CBBAC7E1E4700D900367E47 /* LSDColumnVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBAC7D1E4700D900367E47 /* LSDColumnVideoView.m */; };
+		6CBBAC801E4700E700367E47 /* LSDColumnVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBAC7F1E4700E700367E47 /* LSDColumnVideoView.xib */; };
+		6CBBAC831E47010E00367E47 /* LSDColumnPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBAC821E47010E00367E47 /* LSDColumnPictureView.m */; };
+		6CBBAC851E47011A00367E47 /* LSDColumnPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBAC841E47011A00367E47 /* LSDColumnPictureView.xib */; };
 		6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD049371E26168000FFEEEF /* LSDModulesNet.m */; };
 		6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */; };
+		6CD5BE4C1E33463E009E1CC5 /* LSDColumnSoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5BE4B1E33463E009E1CC5 /* LSDColumnSoundView.m */; };
+		6CD5BE4E1E334651009E1CC5 /* LSDColumnSoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5BE4D1E334651009E1CC5 /* LSDColumnSoundView.xib */; };
+		6CD5BE511E3355C9009E1CC5 /* LSDBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5BE501E3355C9009E1CC5 /* LSDBottomView.m */; };
 		6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */; };
 		6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */; };
 		6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */; };
 		6CFC6BD51E28AD6600F4E5C2 /* LSDPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */; };
 		6CFC6BD81E28AD9600F4E5C2 /* LSDJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */; };
+		6CFF017B1E2F3D4000EC7967 /* LSDAllColumnNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF017A1E2F3D4000EC7967 /* LSDAllColumnNet.m */; };
+		6CFF017E1E2F431D00EC7967 /* LSDAllColumnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF017D1E2F431D00EC7967 /* LSDAllColumnItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +116,10 @@
 		6C05CF291E276A71005DB676 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		6C05CF2B1E2778AD005DB676 /* LSDMsgAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDMsgAlertView.h; sourceTree = "<group>"; };
 		6C05CF2C1E2778AD005DB676 /* LSDMsgAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDMsgAlertView.m; sourceTree = "<group>"; };
+		6C10A87A1E31DFD400456658 /* LSDCommentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCommentItem.h; sourceTree = "<group>"; };
+		6C10A87B1E31DFD400456658 /* LSDCommentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCommentItem.m; sourceTree = "<group>"; };
+		6C10A87D1E31E02200456658 /* LSDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDUser.h; sourceTree = "<group>"; };
+		6C10A87E1E31E02200456658 /* LSDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDUser.m; sourceTree = "<group>"; };
 		6C28BC031E1CC07C00BB6281 /* LSDBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C28BC101E1CC07C00BB6281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C28BC121E1CC07C00BB6281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +131,10 @@
 		6C28BC271E1CC07C00BB6281 /* LSDBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDBuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C28BC2B1E1CC07C00BB6281 /* LSDBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDBuDeJieUITests.m; sourceTree = "<group>"; };
 		6C28BC2D1E1CC07C00BB6281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C55EE341E2DC5C800556DB5 /* LSDRefreshFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDRefreshFootView.h; sourceTree = "<group>"; };
+		6C55EE351E2DC5C800556DB5 /* LSDRefreshFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDRefreshFootView.m; sourceTree = "<group>"; };
+		6C55EE371E2DF11F00556DB5 /* LSDRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDRefreshHeadView.h; sourceTree = "<group>"; };
+		6C55EE381E2DF11F00556DB5 /* LSDRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDRefreshHeadView.m; sourceTree = "<group>"; };
 		6C5818511E233DC100A0BBC9 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		6C5818521E233DC100A0BBC9 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		6C5818531E233DC100A0BBC9 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
@@ -140,6 +167,10 @@
 		6C585B2A1E28691300FA76FF /* LSDFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFileTool.m; sourceTree = "<group>"; };
 		6C585B2D1E28759700FA76FF /* LSDTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTitleView.h; sourceTree = "<group>"; };
 		6C585B2E1E28759700FA76FF /* LSDTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTitleView.m; sourceTree = "<group>"; };
+		6C600D9C1E3305E100E05C30 /* LSDCommentUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCommentUserVC.h; sourceTree = "<group>"; };
+		6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCommentUserVC.m; sourceTree = "<group>"; };
+		6C74DC251E52941A00E2A9A7 /* LSDAssetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAssetTool.h; sourceTree = "<group>"; };
+		6C74DC261E52941A00E2A9A7 /* LSDAssetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAssetTool.m; sourceTree = "<group>"; };
 		6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFastLoginView.h; sourceTree = "<group>"; };
 		6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFastLoginView.m; sourceTree = "<group>"; };
 		6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDFastLoginView.xib; sourceTree = "<group>"; };
@@ -179,6 +210,11 @@
 		6C83202B1E1F872300BBDEDA /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		6C83202D1E1F8BF800BBDEDA /* LSDSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSettingVC.h; sourceTree = "<group>"; };
 		6C83202E1E1F8BF800BBDEDA /* LSDSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSettingVC.m; sourceTree = "<group>"; };
+		6C86C9CC1E308FE3004EA1FB /* LSDColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDColumnCell.h; sourceTree = "<group>"; };
+		6C86C9CD1E308FE3004EA1FB /* LSDColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDColumnCell.m; sourceTree = "<group>"; };
+		6C86C9CE1E308FE3004EA1FB /* LSDColumnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDColumnCell.xib; sourceTree = "<group>"; };
+		6C9404C91E4D559900BB8CAC /* LSDSeeBigPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSeeBigPictureVC.h; sourceTree = "<group>"; };
+		6C9404CA1E4D559900BB8CAC /* LSDSeeBigPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSeeBigPictureVC.m; sourceTree = "<group>"; };
 		6CA03A9D1E248B3C00E768F1 /* UIStoryboard+VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+VC.h"; sourceTree = "<group>"; };
 		6CA03A9E1E248B3C00E768F1 /* UIStoryboard+VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+VC.m"; sourceTree = "<group>"; };
 		6CA03AA01E248E7B00E768F1 /* LSDLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDLoginVC.h; sourceTree = "<group>"; };
@@ -192,10 +228,23 @@
 		6CA447411E25D870000D2DCF /* LSDCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDCollectionCell.xib; sourceTree = "<group>"; };
 		6CA447441E25D9E9000D2DCF /* LSDModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDModuleItem.h; sourceTree = "<group>"; };
 		6CA447451E25D9E9000D2DCF /* LSDModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModuleItem.m; sourceTree = "<group>"; };
+		6CB88DB11E30B14E00A85E97 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		6CB88DB21E30B14E00A85E97 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		6CBBAC7C1E4700D900367E47 /* LSDColumnVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDColumnVideoView.h; sourceTree = "<group>"; };
+		6CBBAC7D1E4700D900367E47 /* LSDColumnVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDColumnVideoView.m; sourceTree = "<group>"; };
+		6CBBAC7F1E4700E700367E47 /* LSDColumnVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDColumnVideoView.xib; sourceTree = "<group>"; };
+		6CBBAC811E47010E00367E47 /* LSDColumnPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDColumnPictureView.h; sourceTree = "<group>"; };
+		6CBBAC821E47010E00367E47 /* LSDColumnPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDColumnPictureView.m; sourceTree = "<group>"; };
+		6CBBAC841E47011A00367E47 /* LSDColumnPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDColumnPictureView.xib; sourceTree = "<group>"; };
 		6CD049361E26168000FFEEEF /* LSDModulesNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDModulesNet.h; sourceTree = "<group>"; };
 		6CD049371E26168000FFEEEF /* LSDModulesNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModulesNet.m; sourceTree = "<group>"; };
 		6CD049391E2627FA00FFEEEF /* LSDFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFootView.h; sourceTree = "<group>"; };
 		6CD0493A1E2627FB00FFEEEF /* LSDFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFootView.m; sourceTree = "<group>"; };
+		6CD5BE4A1E33463E009E1CC5 /* LSDColumnSoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDColumnSoundView.h; sourceTree = "<group>"; };
+		6CD5BE4B1E33463E009E1CC5 /* LSDColumnSoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDColumnSoundView.m; sourceTree = "<group>"; };
+		6CD5BE4D1E334651009E1CC5 /* LSDColumnSoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDColumnSoundView.xib; sourceTree = "<group>"; };
+		6CD5BE4F1E3355C9009E1CC5 /* LSDBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBottomView.h; sourceTree = "<group>"; };
+		6CD5BE501E3355C9009E1CC5 /* LSDBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBottomView.m; sourceTree = "<group>"; };
 		6CFC6BCA1E28AD2900F4E5C2 /* LSDAllColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnVC.h; sourceTree = "<group>"; };
 		6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnVC.m; sourceTree = "<group>"; };
 		6CFC6BCD1E28AD3B00F4E5C2 /* LSDVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDVideoVC.h; sourceTree = "<group>"; };
@@ -206,6 +255,10 @@
 		6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPictureVC.m; sourceTree = "<group>"; };
 		6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDJokesVC.h; sourceTree = "<group>"; };
 		6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDJokesVC.m; sourceTree = "<group>"; };
+		6CFF01791E2F3D4000EC7967 /* LSDAllColumnNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnNet.h; sourceTree = "<group>"; };
+		6CFF017A1E2F3D4000EC7967 /* LSDAllColumnNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnNet.m; sourceTree = "<group>"; };
+		6CFF017C1E2F431D00EC7967 /* LSDAllColumnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnItem.h; sourceTree = "<group>"; };
+		6CFF017D1E2F431D00EC7967 /* LSDAllColumnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,6 +444,8 @@
 		6C585B261E28691300FA76FF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				6C74DC251E52941A00E2A9A7 /* LSDAssetTool.h */,
+				6C74DC261E52941A00E2A9A7 /* LSDAssetTool.m */,
 				6C585B271E28691300FA76FF /* LSDBaseNetTool.h */,
 				6C585B281E28691300FA76FF /* LSDBaseNetTool.m */,
 				6C585B291E28691300FA76FF /* LSDFileTool.h */,
@@ -405,6 +460,7 @@
 				6C831FEC1E1F30C400BBDEDA /* Controller */,
 				6C831FED1E1F30C400BBDEDA /* Model */,
 				6C831FEE1E1F30C400BBDEDA /* View */,
+				6CFF01781E2F3D0000EC7967 /* Net */,
 			);
 			path = "Essence(精华)";
 			sourceTree = "<group>";
@@ -424,6 +480,10 @@
 				6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */,
 				6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */,
 				6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */,
+				6C600D9C1E3305E100E05C30 /* LSDCommentUserVC.h */,
+				6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */,
+				6C9404C91E4D559900BB8CAC /* LSDSeeBigPictureVC.h */,
+				6C9404CA1E4D559900BB8CAC /* LSDSeeBigPictureVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -431,6 +491,12 @@
 		6C831FED1E1F30C400BBDEDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6CFF017C1E2F431D00EC7967 /* LSDAllColumnItem.h */,
+				6CFF017D1E2F431D00EC7967 /* LSDAllColumnItem.m */,
+				6C10A87A1E31DFD400456658 /* LSDCommentItem.h */,
+				6C10A87B1E31DFD400456658 /* LSDCommentItem.m */,
+				6C10A87D1E31E02200456658 /* LSDUser.h */,
+				6C10A87E1E31E02200456658 /* LSDUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,6 +506,24 @@
 			children = (
 				6C585B2D1E28759700FA76FF /* LSDTitleView.h */,
 				6C585B2E1E28759700FA76FF /* LSDTitleView.m */,
+				6C55EE341E2DC5C800556DB5 /* LSDRefreshFootView.h */,
+				6C55EE351E2DC5C800556DB5 /* LSDRefreshFootView.m */,
+				6C55EE371E2DF11F00556DB5 /* LSDRefreshHeadView.h */,
+				6C55EE381E2DF11F00556DB5 /* LSDRefreshHeadView.m */,
+				6C86C9CC1E308FE3004EA1FB /* LSDColumnCell.h */,
+				6C86C9CD1E308FE3004EA1FB /* LSDColumnCell.m */,
+				6C86C9CE1E308FE3004EA1FB /* LSDColumnCell.xib */,
+				6CD5BE4F1E3355C9009E1CC5 /* LSDBottomView.h */,
+				6CD5BE501E3355C9009E1CC5 /* LSDBottomView.m */,
+				6CD5BE4A1E33463E009E1CC5 /* LSDColumnSoundView.h */,
+				6CD5BE4B1E33463E009E1CC5 /* LSDColumnSoundView.m */,
+				6CD5BE4D1E334651009E1CC5 /* LSDColumnSoundView.xib */,
+				6CBBAC7C1E4700D900367E47 /* LSDColumnVideoView.h */,
+				6CBBAC7D1E4700D900367E47 /* LSDColumnVideoView.m */,
+				6CBBAC7F1E4700E700367E47 /* LSDColumnVideoView.xib */,
+				6CBBAC811E47010E00367E47 /* LSDColumnPictureView.h */,
+				6CBBAC821E47010E00367E47 /* LSDColumnPictureView.m */,
+				6CBBAC841E47011A00367E47 /* LSDColumnPictureView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -710,6 +794,8 @@
 				6CA447381E25C78F000D2DCF /* UITextField+PlaceHolderColor.m */,
 				6C05CF281E276A71005DB676 /* NSString+Extension.h */,
 				6C05CF291E276A71005DB676 /* NSString+Extension.m */,
+				6CB88DB11E30B14E00A85E97 /* UIImageView+Extension.h */,
+				6CB88DB21E30B14E00A85E97 /* UIImageView+Extension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -719,6 +805,15 @@
 			children = (
 				6CD049361E26168000FFEEEF /* LSDModulesNet.h */,
 				6CD049371E26168000FFEEEF /* LSDModulesNet.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		6CFF01781E2F3D0000EC7967 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6CFF01791E2F3D4000EC7967 /* LSDAllColumnNet.h */,
+				6CFF017A1E2F3D4000EC7967 /* LSDAllColumnNet.m */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -843,9 +938,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C28BC161E1CC07C00BB6281 /* LaunchScreen.storyboard in Resources */,
+				6C86C9D01E308FE3004EA1FB /* LSDColumnCell.xib in Resources */,
 				6C5818591E233DC100A0BBC9 /* LaunchImage-700-568h@2x.png in Resources */,
 				6C58185D1E233DC100A0BBC9 /* LaunchImage.png in Resources */,
 				6C58187E1E237F5700A0BBC9 /* LSDSubTagCell.xib in Resources */,
+				6CBBAC851E47011A00367E47 /* LSDColumnPictureView.xib in Resources */,
 				6C28BC131E1CC07C00BB6281 /* Assets.xcassets in Resources */,
 				6CA447431E25D870000D2DCF /* LSDCollectionCell.xib in Resources */,
 				6C58185A1E233DC100A0BBC9 /* LaunchImage-700@2x.png in Resources */,
@@ -855,8 +952,10 @@
 				6C58185B1E233DC100A0BBC9 /* LaunchImage-800-667h@2x.png in Resources */,
 				6C5818671E233E6E00A0BBC9 /* LSDAdVC.xib in Resources */,
 				6C8011831E274F52002B7EFC /* LSDSectionHeadView.xib in Resources */,
+				6CBBAC801E4700E700367E47 /* LSDColumnVideoView.xib in Resources */,
 				6C28BC111E1CC07C00BB6281 /* Main.storyboard in Resources */,
 				6C7EEC6E1E24D4B60058875D /* LSDLoginRegistView.xib in Resources */,
+				6CD5BE4E1E334651009E1CC5 /* LSDColumnSoundView.xib in Resources */,
 				6C58185E1E233DC100A0BBC9 /* LaunchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -931,6 +1030,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C5818791E237EDA00A0BBC9 /* LSDSubTagVC.m in Sources */,
+				6CFF017B1E2F3D4000EC7967 /* LSDAllColumnNet.m in Sources */,
+				6CD5BE511E3355C9009E1CC5 /* LSDBottomView.m in Sources */,
+				6C10A87F1E31E02200456658 /* LSDUser.m in Sources */,
 				6CA447361E25C1DA000D2DCF /* LSDTextField.m in Sources */,
 				6CA447461E25D9E9000D2DCF /* LSDModuleItem.m in Sources */,
 				6C83200D1E1F316200BBDEDA /* LSDFriendTrendVC.m in Sources */,
@@ -940,12 +1042,16 @@
 				6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */,
 				6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */,
 				6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */,
+				6C55EE391E2DF11F00556DB5 /* LSDRefreshHeadView.m in Sources */,
+				6C9404CB1E4D559900BB8CAC /* LSDSeeBigPictureVC.m in Sources */,
+				6C10A87C1E31DFD400456658 /* LSDCommentItem.m in Sources */,
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
 				6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */,
 				6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */,
 				6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */,
 				6C58187D1E237F5700A0BBC9 /* LSDSubTagCell.m in Sources */,
 				6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */,
+				6CD5BE4C1E33463E009E1CC5 /* LSDColumnSoundView.m in Sources */,
 				6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
@@ -956,15 +1062,23 @@
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
 				6CA447421E25D870000D2DCF /* LSDCollectionCell.m in Sources */,
 				6C7EEC6C1E24D4940058875D /* LSDLoginRegistView.m in Sources */,
+				6C74DC271E52941A00E2A9A7 /* LSDAssetTool.m in Sources */,
+				6C86C9CF1E308FE3004EA1FB /* LSDColumnCell.m in Sources */,
+				6CBBAC831E47010E00367E47 /* LSDColumnPictureView.m in Sources */,
+				6C600D9E1E3305E100E05C30 /* LSDCommentUserVC.m in Sources */,
 				6C5818851E23847100A0BBC9 /* LSDSubTagNet.m in Sources */,
 				6C8320071E1F30F500BBDEDA /* LSDTabBarVC.m in Sources */,
 				6C5818731E236A2500A0BBC9 /* LSDAdNet.m in Sources */,
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
 				6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */,
+				6CB88DB31E30B14E00A85E97 /* UIImageView+Extension.m in Sources */,
 				6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */,
+				6C55EE361E2DC5C800556DB5 /* LSDRefreshFootView.m in Sources */,
+				6CBBAC7E1E4700D900367E47 /* LSDColumnVideoView.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
 				6C05CF2D1E2778AD005DB676 /* LSDMsgAlertView.m in Sources */,
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
+				6CFF017E1E2F431D00EC7967 /* LSDAllColumnItem.m in Sources */,
 				6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */,
 				6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */,
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,
@@ -1128,7 +1242,7 @@
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lierda.LSDBuDeJie;
+				PRODUCT_BUNDLE_IDENTIFIER = lierda.LSDBuDeJie3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1145,7 +1259,7 @@
 				INFOPLIST_FILE = LSDBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lierda.LSDBuDeJie;
+				PRODUCT_BUNDLE_IDENTIFIER = lierda.LSDBuDeJie3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

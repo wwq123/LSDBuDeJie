@@ -206,6 +206,70 @@
             </objects>
             <point key="canvasLocation" x="820" y="109.29535232383809"/>
         </scene>
+        <!--Comment UserVC-->
+        <scene sceneID="cgL-T8-gk8">
+            <objects>
+                <viewController storyboardIdentifier="LSDCommentUserVC" id="PGX-4S-RNH" customClass="LSDCommentUserVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GPH-7Z-4Mj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ewe-6t-qTF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JL3-PV-wLW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LdF-rJ-xfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461" y="113"/>
+        </scene>
+        <!--See Big PictureVC-->
+        <scene sceneID="ehd-Vw-xut">
+            <objects>
+                <viewController storyboardIdentifier="LSDSeeBigPictureVC" id="lFw-cb-is8" customClass="LSDSeeBigPictureVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ofp-NJ-2dq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Czj-Yq-OqT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WrS-Ci-vSB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbJ-zA-phF">
+                                <state key="normal" image="show_image_back_icon"/>
+                                <connections>
+                                    <action selector="backBtnClick:" destination="lFw-cb-is8" eventType="touchUpInside" id="Kam-zZ-0Mq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgr-I9-u7d">
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="NuI-co-b1M"/>
+                                </constraints>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="downLoadBtnClick:" destination="lFw-cb-is8" eventType="touchUpInside" id="YcT-gY-ofr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nbJ-zA-phF" firstAttribute="leading" secondItem="WrS-Ci-vSB" secondAttribute="leading" constant="15" id="SBt-Gw-791"/>
+                            <constraint firstItem="Czj-Yq-OqT" firstAttribute="top" secondItem="cgr-I9-u7d" secondAttribute="bottom" constant="40" id="T7J-Ug-Dog"/>
+                            <constraint firstAttribute="trailing" secondItem="cgr-I9-u7d" secondAttribute="trailing" constant="15" id="pgp-CG-5ac"/>
+                            <constraint firstItem="nbJ-zA-phF" firstAttribute="top" secondItem="WrS-Ci-vSB" secondAttribute="top" constant="30" id="uVS-gR-JGs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backBtn" destination="nbJ-zA-phF" id="Leu-uz-ecf"/>
+                        <outlet property="downLoadBtn" destination="cgr-I9-u7d" id="zTq-32-GsP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULf-0O-7wH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2205.5999999999999" y="112.89355322338831"/>
+        </scene>
     </scenes>
     <resources>
         <image name="friendsTrend_login" width="243" height="48"/>
@@ -213,5 +277,6 @@
         <image name="header_cry_icon" width="48" height="48"/>
         <image name="login_close_icon" width="16" height="16"/>
         <image name="login_register_background" width="320" height="568"/>
+        <image name="show_image_back_icon" width="35" height="35"/>
     </resources>
 </document>

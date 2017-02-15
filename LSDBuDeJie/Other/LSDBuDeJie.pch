@@ -17,4 +17,7 @@
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
 #import "LSDMarch.h"
-#import "LSDConst.h"
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS

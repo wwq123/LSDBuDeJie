@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSDVideoVC : UIViewController
+@interface LSDVideoVC : UITableViewController
 
 @end

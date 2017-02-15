@@ -69,7 +69,7 @@
     return self.center.y;
 }
 
-//- (CGSize)sizeWithString:(NSString *)string{
-//    CGSize size = [string boundingRectWithSize:<#(CGSize)#> options:<#(NSStringDrawingOptions)#> attributes:<#(nullable NSDictionary<NSString *,id> *)#> context:<#(nullable NSStringDrawingContext *)#>];
-//}
++ (UIView *)loadViewWithXibName:(NSString *)xibName{
+    return [[NSBundle mainBundle] loadNibNamed:xibName owner:nil options:nil].firstObject;
+}
 @end

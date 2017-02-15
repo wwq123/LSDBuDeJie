@@ -62,6 +62,8 @@
 
 - (void)titleBtnClick:(UIButton *)sender{
     if (sender == self.currentSelectBtn) {
+        //发送重复点击的通知
+        [LSDNotificationCenter postNotificationName:LSDRepetClickTitleViewBtnNotification object:nil userInfo:nil];
         return;
     }
     [self selectTitleBtn:sender];
@@ -122,6 +124,7 @@
         _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
         _scrollView.showsVerticalScrollIndicator = NO;
         _scrollView.showsHorizontalScrollIndicator = NO;
+        _scrollView.scrollsToTop = NO;
         _scrollView.bounces = NO;
         _scrollView.pagingEnabled = YES;
     }

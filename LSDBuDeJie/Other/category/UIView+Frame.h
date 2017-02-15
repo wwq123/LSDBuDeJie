@@ -15,4 +15,6 @@
 @property (nonatomic, assign) CGFloat lsd_y;
 @property (nonatomic, assign) CGFloat lsd_centerX;
 @property (nonatomic, assign) CGFloat lsd_centerY;
+
++ (UIView *)loadViewWithXibName:(NSString *)xibName;
 @end

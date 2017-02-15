@@ -9,6 +9,7 @@
 #import "LSDSubTagCell.h"
 #import "LSDSubTagItem.h"
 #import <UIImageView+WebCache.h>
+#import "UIImageView+Extension.h"
 
 @interface LSDSubTagCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *headImageV;
@@ -39,8 +40,8 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    self.headImageV.layer.cornerRadius = (self.lsd_height - 10*2)/2.f;
-    self.headImageV.layer.masksToBounds = YES;
+    CGFloat radius = (self.lsd_height - LSD_ColumnUnifyMargin*2)/2.f;
+    [self.headImageV circle_ImageViewWithRadius:radius];
 }
 
 - (void)setSubTagItem:(LSDSubTagItem *)subTagItem{

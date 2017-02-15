@@ -87,7 +87,7 @@
 #pragma mark - 懒加载
 - (WKWebView *)webView{
     if (_webView == nil) {
-        CGFloat webY = 64+self.progressView.lsd_height;
+        CGFloat webY = LSD_NavH+self.progressView.lsd_height;
         _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, webY, Screen_width,Screen_height - webY-44)];
         _webView.navigationDelegate = self;
         _webView.allowsBackForwardNavigationGestures = YES;

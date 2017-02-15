@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LSDTabBarVC.h"
 #import "LSDAdVC.h"
+#import <AFNetworking.h>
 @interface AppDelegate ()
 
 @end
@@ -23,6 +24,10 @@
 //    LSDAdVC *adVC = [[LSDAdVC alloc] init];
 //    self.window.rootViewController = adVC;
     LSDTabBarVC *tabBarVC = [[LSDTabBarVC alloc] init];
+    
+    //监听网络状态
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     return YES;

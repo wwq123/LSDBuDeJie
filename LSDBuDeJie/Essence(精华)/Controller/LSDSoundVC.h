@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSDSoundVC : UIViewController
+@interface LSDSoundVC : UITableViewController
 
 @end

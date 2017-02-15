@@ -59,16 +59,26 @@ static LSDBaseNetTool *_baseNet = nil;
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     if ([mode isEqualToString:@"get"]) {
         [_manager GET:url parameters:parameter progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            NSLog(@"res : %@",responseObject);
-            successBlock(responseObject);
+//            LSDLog(@"res : %@",responseObject);
+            if (responseObject) {
+                successBlock(responseObject);
+            }
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            failureBlock(error.localizedFailureReason);
+            if (error) {
+                LSDLog(@"error : %@",error);
+                failureBlock(error.localizedDescription);
+            }
         }];
     }else{
         [_manager POST:url parameters:parameter progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            successBlock(responseObject);
+            if (responseObject) {
+                successBlock(responseObject);
+            }
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            failureBlock(error.localizedFailureReason);
+            if (error) {
+                LSDLog(@"error : %@",error);
+                failureBlock(error.localizedDescription);
+            }
         }];
     }
 }
