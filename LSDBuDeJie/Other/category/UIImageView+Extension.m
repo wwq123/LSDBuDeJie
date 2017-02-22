@@ -21,12 +21,9 @@
     UIImage *placeholder = [UIImage imageNamed:placeholderImage];
     //先去缓存中找是否有原图
     UIImage *originalImage =  [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:OriginalImageUrl];
-    if (originalImage) {
-        self.image = originalImage;
-        if (completedBlock) {
-            completedBlock(originalImage,nil,0,[NSURL URLWithString:OriginalImageUrl]);
-        }
-    }else{
+    if (originalImage) {//缓存中没原图
+        [self sd_setImageWithURL:[NSURL URLWithString:OriginalImageUrl] placeholderImage:placeholder completed:completedBlock];
+    }else{//就去下载
         if ([AFNetworkReachabilityManager sharedManager].isReachableViaWiFi) {//如果是wifi环境，下载原图
             [self sd_setImageWithURL:[NSURL URLWithString:OriginalImageUrl] placeholderImage:placeholder completed:completedBlock];
         }else if ([AFNetworkReachabilityManager sharedManager].isReachableViaWWAN){//手机网络，下载缩略图
@@ -34,12 +31,9 @@
         }else{//没网,先去缓存中找是否有缩略图,有就显示，没有就显示占位图片
             UIImage *thumbImage =  [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:thumbImageUrl];
             if (thumbImage) {
-                self.image = thumbImage;
-                if (completedBlock) {
-                    completedBlock(originalImage,nil,0,[NSURL URLWithString:thumbImageUrl]);
-                }
+                [self sd_setImageWithURL:[NSURL URLWithString:thumbImageUrl] placeholderImage:placeholder completed:completedBlock];
             }else{
-                self.image = placeholder;
+                [self sd_setImageWithURL:nil placeholderImage:placeholder completed:completedBlock];
             }
         }
     }

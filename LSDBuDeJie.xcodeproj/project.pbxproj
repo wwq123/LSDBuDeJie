@@ -41,6 +41,12 @@
 		6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C585B2E1E28759700FA76FF /* LSDTitleView.m */; };
 		6C600D9E1E3305E100E05C30 /* LSDCommentUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */; };
 		6C74DC271E52941A00E2A9A7 /* LSDAssetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C74DC261E52941A00E2A9A7 /* LSDAssetTool.m */; };
+		6C7E54F31E5D666F002B8784 /* LSDAllColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54EA1E5D666F002B8784 /* LSDAllColumnVC.m */; };
+		6C7E54F41E5D666F002B8784 /* LSDJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54EC1E5D666F002B8784 /* LSDJokesVC.m */; };
+		6C7E54F51E5D666F002B8784 /* LSDPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54EE1E5D666F002B8784 /* LSDPictureVC.m */; };
+		6C7E54F61E5D666F002B8784 /* LSDSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54F01E5D666F002B8784 /* LSDSoundVC.m */; };
+		6C7E54F71E5D666F002B8784 /* LSDVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54F21E5D666F002B8784 /* LSDVideoVC.m */; };
+		6C7E54FA1E5D66D1002B8784 /* LSDBaseColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E54F91E5D66D1002B8784 /* LSDBaseColumnVC.m */; };
 		6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */; };
 		6C7EEC661E24CE060058875D /* LSDFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */; };
 		6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7EEC681E24D20C0058875D /* LSDButton.m */; };
@@ -82,11 +88,6 @@
 		6CD5BE4C1E33463E009E1CC5 /* LSDColumnSoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5BE4B1E33463E009E1CC5 /* LSDColumnSoundView.m */; };
 		6CD5BE4E1E334651009E1CC5 /* LSDColumnSoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5BE4D1E334651009E1CC5 /* LSDColumnSoundView.xib */; };
 		6CD5BE511E3355C9009E1CC5 /* LSDBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5BE501E3355C9009E1CC5 /* LSDBottomView.m */; };
-		6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */; };
-		6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */; };
-		6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */; };
-		6CFC6BD51E28AD6600F4E5C2 /* LSDPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */; };
-		6CFC6BD81E28AD9600F4E5C2 /* LSDJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */; };
 		6CFF017B1E2F3D4000EC7967 /* LSDAllColumnNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF017A1E2F3D4000EC7967 /* LSDAllColumnNet.m */; };
 		6CFF017E1E2F431D00EC7967 /* LSDAllColumnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF017D1E2F431D00EC7967 /* LSDAllColumnItem.m */; };
 /* End PBXBuildFile section */
@@ -171,6 +172,18 @@
 		6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCommentUserVC.m; sourceTree = "<group>"; };
 		6C74DC251E52941A00E2A9A7 /* LSDAssetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAssetTool.h; sourceTree = "<group>"; };
 		6C74DC261E52941A00E2A9A7 /* LSDAssetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAssetTool.m; sourceTree = "<group>"; };
+		6C7E54E91E5D666F002B8784 /* LSDAllColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnVC.h; sourceTree = "<group>"; };
+		6C7E54EA1E5D666F002B8784 /* LSDAllColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnVC.m; sourceTree = "<group>"; };
+		6C7E54EB1E5D666F002B8784 /* LSDJokesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDJokesVC.h; sourceTree = "<group>"; };
+		6C7E54EC1E5D666F002B8784 /* LSDJokesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDJokesVC.m; sourceTree = "<group>"; };
+		6C7E54ED1E5D666F002B8784 /* LSDPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPictureVC.h; sourceTree = "<group>"; };
+		6C7E54EE1E5D666F002B8784 /* LSDPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPictureVC.m; sourceTree = "<group>"; };
+		6C7E54EF1E5D666F002B8784 /* LSDSoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSoundVC.h; sourceTree = "<group>"; };
+		6C7E54F01E5D666F002B8784 /* LSDSoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSoundVC.m; sourceTree = "<group>"; };
+		6C7E54F11E5D666F002B8784 /* LSDVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDVideoVC.h; sourceTree = "<group>"; };
+		6C7E54F21E5D666F002B8784 /* LSDVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDVideoVC.m; sourceTree = "<group>"; };
+		6C7E54F81E5D66D1002B8784 /* LSDBaseColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBaseColumnVC.h; sourceTree = "<group>"; };
+		6C7E54F91E5D66D1002B8784 /* LSDBaseColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBaseColumnVC.m; sourceTree = "<group>"; };
 		6C7EEC621E24CDEF0058875D /* LSDFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFastLoginView.h; sourceTree = "<group>"; };
 		6C7EEC631E24CDEF0058875D /* LSDFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFastLoginView.m; sourceTree = "<group>"; };
 		6C7EEC651E24CE060058875D /* LSDFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDFastLoginView.xib; sourceTree = "<group>"; };
@@ -245,16 +258,6 @@
 		6CD5BE4D1E334651009E1CC5 /* LSDColumnSoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDColumnSoundView.xib; sourceTree = "<group>"; };
 		6CD5BE4F1E3355C9009E1CC5 /* LSDBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBottomView.h; sourceTree = "<group>"; };
 		6CD5BE501E3355C9009E1CC5 /* LSDBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBottomView.m; sourceTree = "<group>"; };
-		6CFC6BCA1E28AD2900F4E5C2 /* LSDAllColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnVC.h; sourceTree = "<group>"; };
-		6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnVC.m; sourceTree = "<group>"; };
-		6CFC6BCD1E28AD3B00F4E5C2 /* LSDVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDVideoVC.h; sourceTree = "<group>"; };
-		6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDVideoVC.m; sourceTree = "<group>"; };
-		6CFC6BD01E28AD4E00F4E5C2 /* LSDSoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDSoundVC.h; sourceTree = "<group>"; };
-		6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDSoundVC.m; sourceTree = "<group>"; };
-		6CFC6BD31E28AD6600F4E5C2 /* LSDPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPictureVC.h; sourceTree = "<group>"; };
-		6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPictureVC.m; sourceTree = "<group>"; };
-		6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDJokesVC.h; sourceTree = "<group>"; };
-		6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDJokesVC.m; sourceTree = "<group>"; };
 		6CFF01791E2F3D4000EC7967 /* LSDAllColumnNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnNet.h; sourceTree = "<group>"; };
 		6CFF017A1E2F3D4000EC7967 /* LSDAllColumnNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAllColumnNet.m; sourceTree = "<group>"; };
 		6CFF017C1E2F431D00EC7967 /* LSDAllColumnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAllColumnItem.h; sourceTree = "<group>"; };
@@ -454,6 +457,25 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		6C7E54E81E5D660D002B8784 /* ColumnVC */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E54F81E5D66D1002B8784 /* LSDBaseColumnVC.h */,
+				6C7E54F91E5D66D1002B8784 /* LSDBaseColumnVC.m */,
+				6C7E54E91E5D666F002B8784 /* LSDAllColumnVC.h */,
+				6C7E54EA1E5D666F002B8784 /* LSDAllColumnVC.m */,
+				6C7E54EB1E5D666F002B8784 /* LSDJokesVC.h */,
+				6C7E54EC1E5D666F002B8784 /* LSDJokesVC.m */,
+				6C7E54ED1E5D666F002B8784 /* LSDPictureVC.h */,
+				6C7E54EE1E5D666F002B8784 /* LSDPictureVC.m */,
+				6C7E54EF1E5D666F002B8784 /* LSDSoundVC.h */,
+				6C7E54F01E5D666F002B8784 /* LSDSoundVC.m */,
+				6C7E54F11E5D666F002B8784 /* LSDVideoVC.h */,
+				6C7E54F21E5D666F002B8784 /* LSDVideoVC.m */,
+			);
+			path = ColumnVC;
+			sourceTree = "<group>";
+		};
 		6C831FEB1E1F30C400BBDEDA /* Essence(精华) */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,18 +490,9 @@
 		6C831FEC1E1F30C400BBDEDA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6C7E54E81E5D660D002B8784 /* ColumnVC */,
 				6C83200E1E1F317900BBDEDA /* LSDEssenceVC.h */,
 				6C83200F1E1F317900BBDEDA /* LSDEssenceVC.m */,
-				6CFC6BCA1E28AD2900F4E5C2 /* LSDAllColumnVC.h */,
-				6CFC6BCB1E28AD2900F4E5C2 /* LSDAllColumnVC.m */,
-				6CFC6BCD1E28AD3B00F4E5C2 /* LSDVideoVC.h */,
-				6CFC6BCE1E28AD3B00F4E5C2 /* LSDVideoVC.m */,
-				6CFC6BD01E28AD4E00F4E5C2 /* LSDSoundVC.h */,
-				6CFC6BD11E28AD4E00F4E5C2 /* LSDSoundVC.m */,
-				6CFC6BD31E28AD6600F4E5C2 /* LSDPictureVC.h */,
-				6CFC6BD41E28AD6600F4E5C2 /* LSDPictureVC.m */,
-				6CFC6BD61E28AD9600F4E5C2 /* LSDJokesVC.h */,
-				6CFC6BD71E28AD9600F4E5C2 /* LSDJokesVC.m */,
 				6C600D9C1E3305E100E05C30 /* LSDCommentUserVC.h */,
 				6C600D9D1E3305E100E05C30 /* LSDCommentUserVC.m */,
 				6C9404C91E4D559900BB8CAC /* LSDSeeBigPictureVC.h */,
@@ -1040,7 +1053,6 @@
 				6C8320291E1F81FE00BBDEDA /* LSDNavigationVC.m in Sources */,
 				6CA03AA21E248E7B00E768F1 /* LSDLoginVC.m in Sources */,
 				6C05CF2A1E276A71005DB676 /* NSString+Extension.m in Sources */,
-				6CFC6BD21E28AD4E00F4E5C2 /* LSDSoundVC.m in Sources */,
 				6C7EEC691E24D20C0058875D /* LSDButton.m in Sources */,
 				6C55EE391E2DF11F00556DB5 /* LSDRefreshHeadView.m in Sources */,
 				6C9404CB1E4D559900BB8CAC /* LSDSeeBigPictureVC.m in Sources */,
@@ -1048,15 +1060,15 @@
 				6C8320131E1F319200BBDEDA /* LSDPublishVC.m in Sources */,
 				6CD049381E26168000FFEEEF /* LSDModulesNet.m in Sources */,
 				6C83201D1E1F79CB00BBDEDA /* LSDTabBar.m in Sources */,
+				6C7E54F61E5D666F002B8784 /* LSDSoundVC.m in Sources */,
 				6C5818761E236A8C00A0BBC9 /* LSDAdItem.m in Sources */,
 				6C58187D1E237F5700A0BBC9 /* LSDSubTagCell.m in Sources */,
-				6CFC6BCC1E28AD2900F4E5C2 /* LSDAllColumnVC.m in Sources */,
 				6CD5BE4C1E33463E009E1CC5 /* LSDColumnSoundView.m in Sources */,
 				6C7EEC641E24CDEF0058875D /* LSDFastLoginView.m in Sources */,
 				6C8320041E1F30C500BBDEDA /* main.m in Sources */,
 				6C83202F1E1F8BF800BBDEDA /* LSDSettingVC.m in Sources */,
-				6CFC6BD51E28AD6600F4E5C2 /* LSDPictureVC.m in Sources */,
 				6C585B2B1E28691300FA76FF /* LSDBaseNetTool.m in Sources */,
+				6C7E54F71E5D666F002B8784 /* LSDVideoVC.m in Sources */,
 				6C80117E1E271EC4002B7EFC /* LSDWebViewVC.m in Sources */,
 				6C585B2C1E28691300FA76FF /* LSDFileTool.m in Sources */,
 				6C83201A1E1F322600BBDEDA /* LSDNewVC.m in Sources */,
@@ -1072,7 +1084,7 @@
 				6C83200A1E1F313B00BBDEDA /* LSDMeVC.m in Sources */,
 				6C585B2F1E28759700FA76FF /* LSDTitleView.m in Sources */,
 				6CB88DB31E30B14E00A85E97 /* UIImageView+Extension.m in Sources */,
-				6CFC6BCF1E28AD3B00F4E5C2 /* LSDVideoVC.m in Sources */,
+				6C7E54F51E5D666F002B8784 /* LSDPictureVC.m in Sources */,
 				6C55EE361E2DC5C800556DB5 /* LSDRefreshFootView.m in Sources */,
 				6CBBAC7E1E4700D900367E47 /* LSDColumnVideoView.m in Sources */,
 				6C8320031E1F30C500BBDEDA /* AppDelegate.m in Sources */,
@@ -1080,14 +1092,16 @@
 				6C58186B1E23560400A0BBC9 /* LSDConst.m in Sources */,
 				6CFF017E1E2F431D00EC7967 /* LSDAllColumnItem.m in Sources */,
 				6C5818811E237F7900A0BBC9 /* LSDSubTagItem.m in Sources */,
+				6C7E54F41E5D666F002B8784 /* LSDJokesVC.m in Sources */,
 				6CD0493B1E2627FB00FFEEEF /* LSDFootView.m in Sources */,
 				6C5818661E233E6E00A0BBC9 /* LSDAdVC.m in Sources */,
 				6C8320251E1F7B1C00BBDEDA /* UIView+Frame.m in Sources */,
-				6CFC6BD81E28AD9600F4E5C2 /* LSDJokesVC.m in Sources */,
 				6CA03A9F1E248B3C00E768F1 /* UIStoryboard+VC.m in Sources */,
 				6C8011811E274F2B002B7EFC /* LSDSectionHeadView.m in Sources */,
 				6C8320101E1F317900BBDEDA /* LSDEssenceVC.m in Sources */,
+				6C7E54FA1E5D66D1002B8784 /* LSDBaseColumnVC.m in Sources */,
 				6CA447391E25C78F000D2DCF /* UITextField+PlaceHolderColor.m in Sources */,
+				6C7E54F31E5D666F002B8784 /* LSDAllColumnVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

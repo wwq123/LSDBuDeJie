@@ -15,6 +15,22 @@ typedef void(^createAssetCollectionFinishedBlock)(PHAssetCollection *collection,
 @property (nonatomic, copy) fetchAssetCollectionFinishedBlock fetchAssectCollectionFinishedBlock;
 @property (nonatomic, copy) createAssetCollectionFinishedBlock createAssetCollectionFinishedBlock;
 
+
+/**
+ 获取图库权限状态
+
+ @return 权限状态
+ */
++ (PHAuthorizationStatus)getPhotoLibraryAuthorizationStatus;
+
+
+/**
+ 检查图库权限
+
+ @param complete 权限状态回调
+ */
++ (void)checkAutorizationStatusComplete:(void(^)(PHAuthorizationStatus))complete;
+
 /**
  根据给定的title查找对应的自定义相册是否存在
 
@@ -41,13 +57,14 @@ typedef void(^createAssetCollectionFinishedBlock)(PHAssetCollection *collection,
  */
 + (PHFetchResult<PHAsset *> *)getPictureFromCamerRoll:(UIImage *)image;
 
+
 /**
- 创建一个对应名字的自定义相册
+ 保存相片到相机胶卷
 
- @param title 名字
-
- @return 创建的自定义相册
+ @param image 保存的相片
  */
++ (void)saveImageToAlbum:(UIImage *)image complete:(void(^)(UIImage*,NSString *))complete;
+
 
 /**
  创建一个对应名字的自定义相册

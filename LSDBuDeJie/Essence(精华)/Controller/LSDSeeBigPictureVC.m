@@ -84,18 +84,16 @@
 }
 //保存图片
 - (IBAction)downLoadBtnClick:(UIButton *)sender {
-    PHAuthorizationStatus oldStatus = [PHPhotoLibrary authorizationStatus];
+    PHAuthorizationStatus oldStatus = [LSDAssetTool getPhotoLibraryAuthorizationStatus];
     //检查访问权限
-    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            if (status == PHAuthorizationStatusRestricted) {
-                [SVProgressHUD showErrorWithStatus:@"因系统原因,无法访问相册权限"];
-            }else if (status == PHAuthorizationStatusAuthorized){//用户已授权访问相册
-                [self saveImageIntoAblum];
-            }else if (status == PHAuthorizationStatusDenied && oldStatus != PHAuthorizationStatusNotDetermined){//用户拒绝打开相册权限
-                [SVProgressHUD showErrorWithStatus:@"请前往设置-隐私-图片重新打开相册访问权限开关"];
-            }
-        });
+    [LSDAssetTool checkAutorizationStatusComplete:^(PHAuthorizationStatus status) {
+        if (status == PHAuthorizationStatusRestricted) {
+            [SVProgressHUD showErrorWithStatus:@"因系统原因,无法访问相册权限"];
+        }else if (status == PHAuthorizationStatusAuthorized){//用户已授权访问相册
+            [self saveImageIntoAblum];
+        }else if (status == PHAuthorizationStatusDenied && oldStatus != PHAuthorizationStatusNotDetermined){//用户拒绝打开相册权限
+            [SVProgressHUD showErrorWithStatus:@"请前往设置-隐私-图片重新打开相册访问权限开关"];
+        }
     }];
 }
 

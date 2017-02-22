@@ -9,6 +9,18 @@
 #import "LSDAssetTool.h"
 
 @implementation LSDAssetTool
+
++ (PHAuthorizationStatus)getPhotoLibraryAuthorizationStatus{
+    return [PHPhotoLibrary authorizationStatus];
+}
+
++ (void)checkAutorizationStatusComplete:(void (^)(PHAuthorizationStatus ))complete{
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            complete(status);
+        });
+    }];
+}
 + (void)fetchAssetCollectionWithTitle:(NSString *)title complete:(fetchAssetCollectionFinishedBlock)complete{
     if (!title) {
         if (complete) {
@@ -57,6 +69,20 @@
         return nil;
     }
    return [PHAsset fetchAssetsWithLocalIdentifiers:@[asset_Id] options:nil];
+}
+
++ (void)saveImageToAlbum:(UIImage *)image complete:(void(^)(UIImage*,NSString *))complete{
+    if (!image) {
+        complete(nil,@"图片不存在");
+        return;
+    }
+    NSError *error = nil;
+    [[PHPhotoLibrary sharedPhotoLibrary] performChangesAndWait:^{
+        [PHAssetChangeRequest creationRequestForAssetFromImage:image];
+    } error:&error];
+    if (error) {
+        complete(nil,error.localizedDescription);
+    }
 }
 
 + (void)createAssetCollectionWithTitle:(NSString *)title complete:(createAssetCollectionFinishedBlock)complete{

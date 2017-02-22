@@ -15,11 +15,13 @@
 @property (nonatomic, strong) NSString *maxtime;
 @end
 @implementation LSDAllColumnNet
-- (void)allColumnRequestWithMaxtime:(NSString *)maxtime successBlock:(void(^)(NSMutableArray *allColumns))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock{
+- (void)allColumnRequestWithMaxtime:(NSString *)maxtime type:(NSInteger)type successBlock:(void(^)(NSMutableArray *allColumns))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock{
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     param[@"a"] = @"list";
     param[@"c"] = @"data";
-    param[@"type"] = @1;
+    if (type) {
+        param[@"type"] = @(type);
+    }
     if (maxtime) {
         param[@"maxtime"] = maxtime;
     }

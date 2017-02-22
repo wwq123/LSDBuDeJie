@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface LSDAllColumnNet : NSObject
-- (void)allColumnRequestWithMaxtime:(NSString *)maxtime successBlock:(void(^)(NSMutableArray *allColumns))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock;
+- (void)allColumnRequestWithMaxtime:(NSString *)maxtime type:(NSInteger)type successBlock:(void(^)(NSMutableArray *allColumns))successBlock failureBlock:(void(^)(NSString *errMessage))failureBlock;
 
 /**
  最后一条帖子数据的描述信息，专门用来加载下一页数据

@@ -1,16 +1,15 @@
 //
-//  LSDAllColumnVC.m
+//  LSDBaseColumnVC.m
 //  LSDBuDeJie
 //
 //  Created by SelenaWong on 17/1/13.
 //  Copyright © 2017年 SelenaWong. All rights reserved.
 //
 
-#import "LSDAllColumnVC.h"
+#import "LSDBaseColumnVC.h"
 #import "LSDRefreshFootView.h"
 #import "LSDRefreshHeadView.h"
 #import "LSDAllColumnNet.h"
-#import "LSDAllColumnItem.h"
 #import "LSDColumnCell.h"
 #import "LSDUser.h"
 #import "LSDCommentItem.h"
@@ -18,14 +17,14 @@
 #import "UIStoryboard+VC.h"
 #import <SDWebImageManager.h>
 
-@interface LSDAllColumnVC () <LSDColumnCellDelegate>
+@interface LSDBaseColumnVC () <LSDColumnCellDelegate>
 @property (nonatomic, strong) NSMutableArray *allColumns;
 @property (nonatomic, strong) LSDRefreshFootView *footView;
 @property (nonatomic, strong) LSDRefreshHeadView *headView;
 @property (nonatomic, strong) NSString *maxtime;
 @end
 
-@implementation LSDAllColumnVC
+@implementation LSDBaseColumnVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,8 +46,8 @@
     self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(LSD_ContentSet_Top, 0, LSD_ContentSet_bottom, 0);
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     //自动计算高度
-//    self.tableView.rowHeight = UITableViewAutomaticDimension;
-//    self.tableView.estimatedRowHeight = 200.f;
+    //    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    //    self.tableView.estimatedRowHeight = 200.f;
 }
 
 - (void)setNotification{
@@ -72,7 +71,7 @@
 #pragma mark - 数据处理
 - (void)loadNewData{
     LSDAllColumnNet *allColumnNet = [[LSDAllColumnNet alloc] init];
-    [allColumnNet allColumnRequestWithMaxtime:nil successBlock:^(NSMutableArray *allColumns) {
+    [allColumnNet allColumnRequestWithMaxtime:nil type:self.type  successBlock:^(NSMutableArray *allColumns) {
         self.allColumns = allColumns;
         self.maxtime = [allColumnNet getMaxtime];
         [self.tableView reloadData];
@@ -84,14 +83,13 @@
 
 - (void)loadMoreData{
     LSDAllColumnNet *allColumnNet = [[LSDAllColumnNet alloc] init];
-    [allColumnNet allColumnRequestWithMaxtime:self.maxtime successBlock:^(NSMutableArray *allColumns) {
+    [allColumnNet allColumnRequestWithMaxtime:self.maxtime type:self.type successBlock:^(NSMutableArray *allColumns) {
         self.maxtime = [allColumnNet getMaxtime];
         [self.allColumns addObjectsFromArray:allColumns];
         [self.tableView reloadData];
         [self footViewEndRefresh];
-        
     } failureBlock:^(NSString *errMessage) {
-         [self footViewEndRefresh];
+        [self footViewEndRefresh];
     }];
 }
 #pragma mark - 监听通知
@@ -135,7 +133,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     LSDAllColumnItem *columnItem = self.allColumns[indexPath.row];
-//    LSDLog(@"%ld---%f",indexPath.row,columnItem.cellHeight);
+    //    LSDLog(@"%ld---%f",indexPath.row,columnItem.cellHeight);
     return columnItem.cellHeight;
 }
 
@@ -186,7 +184,7 @@
     if (self.tableView.contentOffset.y >= foot_offsetY && self.tableView.contentOffset.y > -(self.tableView.contentInset.top)) {//footView即将出现并且是上拉
         [self footViewBeginRefresh];
     }
-
+    
 }
 
 #pragma mark - LSDColumnCellDelegate
@@ -213,7 +211,7 @@
     
     //发送请求，加载数据
     [self loadNewData];
-
+    
 }
 //结束下拉刷新
 - (void)headViewEndRefresh{
@@ -243,6 +241,10 @@
         _allColumns = [NSMutableArray array];
     }
     return _allColumns;
+}
+
+- (LSDColumnType)type{//这里实现此方法只是为了消除警告，没有任何作用，因为子类重写此方法会覆盖这里
+    return 0;
 }
 #pragma mark - dealloc方法
 - (void)dealloc{
